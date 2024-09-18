@@ -1,0 +1,295 @@
+Tom Servo Print and assembly notes
+==================================
+&copy; 2024 by Tony Fabris
+
+A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet.
+
+Required hardware: A 3D resin printer and a wash/cure station (I'm using an Anycubic Photon M3).
+Required software: Blender, Chitubox (free basic version). You could use another slicer if you like.
+
+
+Where these designs originated:
+-------------------------------
+
+Most parts were originally from a set of 3D models by @Pack_512 found on the Printables.com web site. These were originally intended to print full size puppet parts on a PLA printer. However they did not include every part, and the parts they did include needed some modification for the resin printing. Originals were found at:
+  - https://www.printables.com/en/model/98987/files
+
+The hoverskirt, skirt rim, barrel surface detail, and other modifications, are by Tony Fabris:
+  - Barrel surface detail is done as a "Displacement Map" modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". Source layers for the PNG are found in "BarrelWoodgrain.xcf" is also included for convenience, and can be opened in GIMP if needed.
+  - I have made many modifications to @Pack_512's parts to make them easier to resin-print, paint, and assemble into a small model. For example, certain thin parts have been made thicker so that their resin doesn't crumble, and certain parts which fit together have had their fit loosened so that they can still be pressed together even when they have a thick coat of shiny paint on them. 
+
+Reference Material:
+  - Official MST3K bot building guide. I got mine from the fan club many years ago (when there was still a fan club), but here is a link to a scanned copy that someone put on dropbox: https://www.dropbox.com/s/sl6pzz7m48q7dxr
+  - You can google for photos and screen shots on the web. Good example sources:
+    - https://mst3k.fandom.com/wiki/Tom_Servo?file=TomServo.jpg 
+    - https://forums.mst3k.com/t/bot-building-servo/21369
+    - https://propstoreauction.com/lot-details/index/catalog/386/lot/126337
+  - I have also placed some reference photos in this archive.
+
+
+External parts:
+---------------
+
+You'll need to source some external parts to complete this model.
+
+Arm springs:
+  - Spring type: Extension spring.
+  - Spring size: Approx 6mm (0.24in) wide, 2.5cm or longer length (will be cut to length).
+  - Example:
+    - https://www.amazon.com/dp/B0CXJMNDDL
+
+Head globe:
+  - Head globe is optional; You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is sized to fit a commonly-available plastic globe "fillable Christmas ornament":
+  - Globe size: Approx 3cm (1.18in) diameter.
+  - Examples:
+    - https://www.amazon.com/gp/product/B07QH5QVCW
+    - https://www.amazon.com/gp/product/B0776NHB88
+
+
+Exporting models from Blender for printing:
+-------------------------------------------
+
+Open the ".blend" file in Blender and do the following:
+
+- Ensure that "Unit Scale" of the blender file is set to 2.275:
+  - Select the "Scene" properties panel. Find the Properties panel, which is the lower right hand panel in the UI, select its fifth icon which is "Scene Properties"), expand the "Units" section and set the Unit Scale to 2.275.
+- Make sure the realtime viewport display of the modifiers on the "Barrel" object are enabled, so that it prints with the correct faux wood grain texture.
+  - Select the "Barrel" object.
+  - There should be two modifiers on the object (Subdivision and Displace), seen in the Modifiers panel, which is the wrench icon in the properties panel.
+  - Examine the "Realtime" button for each of the two modifiers. The button icon looks like a tiny LCD screen on the modifier panel, and it should be lit up blue.
+  - Do not "APPLY" these modifiers or else everything will run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
+- In the main viewport window, group-select the objects you want to print.
+  - You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll probably be painting most of the pieces anyway, since the resin colors will not be very close to the real colors.
+  - Select the objects arranged in each color group:
+    - Clear objects:
+      - Dome Bottom/Top
+    - Red/Silver objects together:
+      - Barrel (and its child, Barrel Crossbars, keep these together as if they were one object)
+      - Engine block
+      - Face
+      - Jaw Top
+      - Lower Hat/Top Hat
+      - Beak Bottom/Top
+      - Engine Pipes 1/2
+    - White objects:
+      - Hand L/R
+      - Hoverskirt
+      - Shoulder 1/2
+    - Black objects:
+      - Skirt rim
+      - Train 1-6
+- Make sure ONLY the desired objects are selected before exporting.
+- File, Export, .STL, export each of the color groups above as a separate file.
+- Make absolutely sure these tickyboxes are ticked:
+  - "Selection Only" <- IMPORTANT
+  - "Scene Unit" <- IMPORTANT
+  - "Apply Modifiers" <-IMPORTANT
+- Export each group as their own STL files:
+  - Tom Clear.stl
+  - Tom Red Silver.stl
+  - Tom White.stl
+  - Tom Black.stl
+- Note: The Red/Silver group is expected to be slow to export, and slow to import and work in Chitubox, due to the complex surface detail modifiers on the barrel.
+- Note: SceneKitQLThumbnailExtension - When you export a particularly large and complex STL file, such as the Red/Silver group's STL file, a problem can occur. If you happen to be running on an Apple Macintosh computer, there is an unfixed bug in the operating system which occurs when you have a large STL file on the hard disk. The invisible background program "SceneKitQLThumbnailExtension" attempts to create a preview image of the STL file and it will spin the CPU up to 200 percent, make your computer run hot, the fan will spin loudly, and all programs on the computer will run slow and have a tendency to "beachball" on every simple task. To work around this, do the following:
+  - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension and terminate it with the little X button in the toolbar (choose Force Quit).
+  - Delete the STL file as soon as you are done slicing and generating the PM3 file.
+- Trivia: The Blender file is measured in "meters", but when you import the STL files in Chitubox, it will use "millimeters" as its measurement system when importing them.
+
+
+Slicing:
+--------
+
+You may use any slicer to process the files. Instructions here are for Chitubox, since it has a free version. If you are using another slicer, find the equivalent features. 
+
+Create a new project in the slicer and then:
+
+- Import one of the STL files.
+- Switch to the support editing screen.
+  - Select the "Light" version of the supports.
+  - Select the "Raft" button to edit the raft parameters.
+    - "Raft Shape" = Skate
+    - "Raft Area Ratio(%)" = 120
+      - Enlarging the raft area ensures that the rafts are a bit larger, to make the rafts of each color group run together so that the parts all sit together on one large raft. This makes handling and painting easier. Adjust this number as needed.
+  - Press "+All" to add rafts and supports, adjust the raft area ratio if needed, and press "+All" again if you changed the raft size.
+  - Edit the supports (Chitubox requires that you rotate the view, to view the model from the bottom, to edit the supports).
+  - Goals when editing supports:
+    - Make sure that, where possible, the supports attach only to places which are less visible. Delete supports which will mar the finish of the visible portions of the model, but only if you can safely delete them without causing a printing problem.
+      - To remove a support in Chitubox, click the "Delete Support" button (it's one of the four icons at the bottom of the support editor panel), HOLD DOWN the D key, and click on each support you want to delete.
+    - Make sure there is enough gap space between the supports to drain out the resin/paint/clearcoat.
+    - Also make sure that the smallest parts have enough supports. Every piece, even the tiniest ones, should have at least 3-4 supports so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small and tend to come undone from the supports during printing, causing the resulting parts to be curled a little. Fix this by adding additional supports to each of these parts at their ends.
+    - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports tto the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. So rein those supports in so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit.
+- For the clear parts (the head domes):
+  - They are deliberately oriented so that the small parts of each bowl are close to the raft. The large parts of each bowl are free-floating in the air. This is done to print the larger circle edges clean (no supports) where the two halves of the dome meet each other, and to make it easy to do any post-print treatment if needed.
+  - Make sure that the only supports for the clear domes are the ones on the bottom-most edges, the inner smaller circles. Delete any supports which touch the smooth sections of the domes. 
+  - Change the height of the supports so that the printed domes are raised higher above the rafts than the default. This is to help resin and clearcoat being able to drain out the small holes beneath the domes during the finishing process.
+- When done editing supports, switch back to the object editing screen.
+- Save the slicer project file with the same name as the thing you imported.
+- Press "Slice" and wait for it to process.
+   - Chitubox will prompt you for your exposure time settings. Change these as needed based on your printer and resin. (Other slicers will have different methods for editing the exposure times.)
+     - I personally set "Exposure time(s)" to 4 and "Bottom Exposure time(s)" to 20, but your printer and resin may differ. I also had to double my exposure time for clear resin.
+- Press "Save" in the slicing screen, it creates a ".pm3" file for the printer which you put on your USB stick and take to the printer.
+- Delete the STL file of the color group you just sliced. The red/silver group in particular is very large, you don't need the STL files any more, and you can regenerate STLs from the .blend file whenever you want. Also, on MacOS, large STL files cause a bug in the operating system which cause the process SceneKitQLThumbnailExtension to consume all of the CPU cycles, slow down your programs, and make the computer run hot.
+
+
+Printing:
+---------
+
+Copy the .pm3 files to a USB stick, and print them on your resin printer.
+
+- Print each of the color groups, in the appropriate resin colors if you have them. Best results will be obtained if you prime and paint the parts, so printing in specific resin colors is not required except for the clear resin parts. 
+- Rinse/dry/cure the parts.
+- Leave the parts on the supports to make them easy to paint.
+- Clear resin tips:
+  - Working with clear resin is tricky, do some web searches to find lots of tips. I had some success with this strategy (though still not perfect):
+    - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure times from 4 to 8 seconds).
+    - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time.
+    - I found that I could get a reasonably nice crystal clear finish if I didn't rinse the clear domes, just kept them goopy with resin and went straight to curing. If you try to do this, you'll need to use a paper towel to dry-dab away the goopy resin on the edges of the "bowls" where they'll join each other, so that the crisp edges survive the curing process, and the two halves can join nicely.
+
+
+Painting:
+---------
+
+Prime and paint the parts while they are still on the supports so that they are easier to handle.
+
+Paint colors that I used (you can substitute all but the first two):
+- Testors 1629T Red Metallic Flake spray paint. (Canonical screen-accurate color.)
+- Testors 1525 Red Metallic Flake bottle paint.
+- Rust-Oleum 2X Ultra Cover Paint+Primer, Metallic Aluminum spray paint.
+- Rust-Oleum 2X Ultra Cover, Flat White Primer spray paint.
+- Krylon Triple-Thick Crystal Clear Glaze 0500 spray paint.
+- Testors 1149 Flat Black bottle paint.
+- Testors 1147 Gloss Black bottle paint.
+
+Process:
+- Red and Silver parts are first spray-painted silver together:
+  - Silver is an undercoat for the red, important for a screen-accurate shine. I used "metallic aluminum" color.
+  - After drying, remove only the silver parts from the supports (2 beak parts and 2 engine pipe sets) and set them aside. Leave the rest on the supports to get the red coat atop the silver.
+- Red:
+    - The Testors red flake it tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
+    - After dry, remove the top hat from the supports, and hand-paint its inner side, which is visible through Tom's clear head.
+- Inside of Tom's mouth:
+  - Inner section of Tom's lower beak should be hand-painted flat black.
+  - Edge of lower beak and inside of upper beak remain silver.
+- White:
+  - Gloss white paint is hard to get an even coat. I had better luck using flat white primer followed by gloss clearcoat.
+- Black:
+  - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam.
+  - Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
+  - Paint the six trains gloss black.
+- Gloss clearcoat the clear resin parts.
+
+
+Assembly:
+---------
+
+Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep the neck and lower beak so that they stay moveable if possible, by fitting those particular parts without gluing. Use photographic references to ensure correct part positioning where needed.
+
+In some cases it may be easier to leave larger parts on the supports while attaching smaller parts to them. For example, leaving the face section on the supports while attaching the beak, or leaving the engine block on the supports while attaching the engine pipes. 
+
+If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you sliced the parts, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary.
+
+For glue, I'm using Loctite brand Cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible.
+
+In some cases it may produce better results if you scrape away the paint where the parts attach to each other.
+
+Hoverskirt:
+- Glue six trains to hoverskirt.
+- Glue Hoverskirt to skirt rim ring.
+
+Barrel:
+- Glue two Engine Pipes to engine block.
+  - Note: The pipes have crenellations (rectangular bumps) on their outer side edges, which line up with the similar shapes on the sides of the engine block. Make sure to orient the pipes so that these features line up correctly.
+- Glue Engine block to barrel front.
+- Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the same axis as the engine block.
+
+Arms:
+- Cut the arm springs to your desired arm length based on photographic references. Cut away the curls at the ends of the springs so that they are just pure spirals with no protrusions.
+- Attach springs to hands, and to shoulders, by wrapping the last loop of each spring into the slots on the hands and shoulders. Tips:
+  - Wait for paint/clearcoat to be fully cured before doing this, because it involves tightly gripping the parts.
+  - Leaving the shoulder sections on the supports might make it easier to hold the shoulders while doing this. But the amount of force required might peel the shoulders off the supports anyway. Your choice.
+  - It's easiest if you attach to the hands to the springs first, then the springs to the shoulders.
+  - Stretch out the last loop of spring, very slightly, to make it easier to wrap the springs into the slots on the shoulders and hands. You may need to stretch the springs in two directions: both enlarging the circumference of the last loop by a tiny amount, and also lifting the last loop lengthwise away from the other loops.
+  - Make sure the hands are rotated into the correct orientation relative to the shoulders.
+- Depending on the springs, they might be on there firmly enough so that they don't need glue. If not, reinforce with glue.
+- Glue Shoulder assemblies to the barrel top sides at 90 degrees from the engine block. Make sure the hands are in the correct orientation before gluing.
+
+Face:
+- If the face is still on the supports while assembling the beak, remove any inner supports from the inside of the face section before assembling the beak parts.
+- Slide the lower beak into the face, sliding its pins into the slots from above. You will need to angle it as you insert it, so that it gets around the interior geometry of the face assembly. Once it is in place, do not glue it, leave it poseable.
+- Glue the upper beak to the upper jaw arch, inserting from the back side.
+- Slide the upper jaw arch into the slot in the face from above, glue in place above the lower beak. Make its top edge parallel with top edge of the face. Glue it in place from behind and ensure you don't get glue on the lower beak.
+- Glue lower hat to the top of the face assembly. The lower hat is the one with the rod coming out the bottom, the rod inserts into the corresponding hole in the top center of the face assembly.
+- Insert face assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
+
+Dome:
+- If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on the globe. If done very carefully, the spot where the tabs used to be will be very small, only the size of the tabs themselves, and you can position that spot at the back of the head so it's less visible.
+- Use extreme caution to not let glue cause hazing on the clear parts. Use tiniest possible amount of glue. Superglue can cause hazing on clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing.
+- Glue lower dome section to lower hat.
+  - Note that the lower dome is the one with the shorter lip which fits into the lower hat.
+- Glue upper dome to lower dome.
+- Glue top hat on top.
+
+
+Notes:
+------
+
+The blender file is saved with the pieces already moved into their printing positions. To view the parts in "assembled" position:
+
+  - Make sure you are in Object Mode in Blender.
+  - Press A ("select all")
+  - Press Shift-S, and choose "Cursor to World Origin".
+  - Press Shift-S, and choose "Selection to Cursor".
+  - Press ALT+R ("reset rotations of all selected objects")
+  - Individually select the six trains from the object hierarchy panel and set their Z rotations at 60 degrees apart: Z=0, Z=60, Z=120, Z=180, Z=240, Z=300.
+
+Returning objects to printing position:
+
+  - Just reload the earlier save, don't try to do any edits in the "assembled" position.
+  - But if you get stuck...
+  - A, then Alt-R, to reset the Z rotations on all six trains.
+  - Trains, set rotation X=-52 on all six.
+  - Engine block and engine pipes, set rotation X=-90
+  - Engine block set rotation Z=180
+  - Dome top and hands, set rotation X=180
+  - Shoulder 1: Rotation X=180, Y=95.5
+  - Shoulder 2: Rotation Y=-84.5
+  - Jaw Top, Rotation X=-90
+  - Beak Top, Rotation X=-90
+  - Beak Bottom, Rotation X=-90
+  - Press Numpad 7 to view the scene orthographically from the top (looking down at the x/y plane)
+    - Select each piece and press G (grab) and then move into the desired positions on the x/y plane.
+    - Make sure to move the Barrel and the Barrel Crossbars as a single unit so that their positions don't become desynchronized.
+    - Position pieces which need their "insides" painted so that both sides can be more easily spray painted in each group. Examples:
+      - Upper beak inside.
+      - Underside of the two dangling engine block exhaust pipes.
+      - Shoulder sections with their spring attachment points both facing away from the hoverskirt.
+      - Open/inner section of Face facing away from the barrel.
+      - Clear domes with their inner faces aiming up at the sky and enough space between them to easily clearcoat both inside and outside without removing from the supports.
+    - Press Numpad 1 to view the scene orthographically from the front. Select each piece and press G and move each piece into vertical position just above the world plane (this will be the print bed).
+
+Differences in Tom's appearance:
+
+- In early seasons, the "lower hat" piece is not part of Tom's head assembly. It was added in later seasons.
+- The trains on the hoverskirt change their appearance constantly over time. They were vacu-formed from the original train toy shape: The amount of "squish" around their edges, and where they're positioned on the hoverskirt, depend on who did the vacu-forming, where they cut the edges of the plastic, and how carefully they glued them into position.
+
+
+To Do:
+------
+Remove the "notches" from the shoulder pauldrons where they meet up with the barrel ring. On screen, there are no notches, the pauldrons are just attached. Come up with a way for them to fit the kit well, without the notches.
+
+The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials.
+
+The hands are not screen-accurate and need to be improved. Re-model them to match reference materials.
+
+Trains could still be improved:
+- Wider maybe?
+- Non-circularness of circular features could be improved.
+- Consider making the train edges have a "lip" thickness so that they print reliably out to their edges.
+- Make them blobby like they were vacu-formed, rather than crisp.
+
+Print, paint, and assemble all parts again, after several major redesigns and changes.
+
+Try the anti-aliasing feature in Chitubox when reprinting.
+
+If assembly went OK, then delete the "cutter" objects from the blender file.
+
