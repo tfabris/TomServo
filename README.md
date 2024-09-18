@@ -142,7 +142,7 @@ Create a new project in the slicer and then:
      - Chitubox will prompt you for your exposure time settings. Change these as needed based on your printer and resin. (Other slicers will have different methods for editing the exposure times.)
        - I personally set "Exposure time(s)" to 4 and "Bottom Exposure time(s)" to 20, but your printer and resin may differ. I also had to double my exposure time for clear resin.
   - Press "Save" in the slicing screen, it creates a ".pm3" file for the printer which you put on your USB stick and take to the printer.
-  - Delete the STL file of the color group you just sliced. The red/silver group in particular is very large, you don't need the STL files any more, and you can regenerate STLs from the .blend file whenever you want. Also, on MacOS, large STL files cause a bug in the operating system which cause the process SceneKitQLThumbnailExtension to consume all of the CPU cycles, slow down your programs, and make the computer run hot.
+  - Delete the STL file of the color group you just sliced. Reasons: The files can be very large (Red/Silver in particular), you don't need the STL files any more, and you can regenerate STLs from the .blend file whenever you want. Also, most importantly, on MacOS, large STL files cause a bug in the operating system which cause the process SceneKitQLThumbnailExtension to consume all of the CPU cycles, slow down your programs, and make the computer run hot.
 
 
 Printing:
