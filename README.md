@@ -1,5 +1,5 @@
-Tom Servo - Print and Assembly Notes
-====================================
+Tom Servo - Resin Print Model
+=============================
 &copy; 2024 by Tony Fabris
 
 A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet.
@@ -257,18 +257,19 @@ Notes:
 The blender file is saved with the pieces already moved into their printing positions. To view the parts in "assembled" position:
 
   - Make sure you are in Object Mode in Blender.
-  - Press A ("select all")
-  - Press Shift-S, and choose "Cursor to World Origin".
-  - Press Shift-S, and choose "Selection to Cursor".
-  - Press ALT+R ("reset rotations of all selected objects")
-  - Individually select the six trains from the object hierarchy panel and set their Z rotations at 60 degrees apart: Z=0, Z=60, Z=120, Z=180, Z=240, Z=300.
+  - Press A ("Select All")
+  - Press Shift-S ("Snap"), and choose "Cursor to World Origin".
+  - Press Shift-S ("Snap"), and choose "Selection to Cursor".
+  - Press ALT+R ("Clear Rotations")
+  - Tom should now be fully assembled at 0,0 with objects in the correct rotations.
+  - However the trains are still all gathered at the front position. Rotate them into their final positions around the hoverskirt at 60 degrees apart: Individually select the six trains from the object hierarchy in the Scene Collection panel, and set their Z rotations in this order: Z=0, Z=60, Z=120, Z=180, Z=240, Z=300.
 
 Returning objects to printing position:
 
   - Just reload the earlier save, don't try to do any edits in the "assembled" position.
-  - But if you get stuck...
-  - A, then Alt-R, to reset the Z rotations on all six trains.
-  - Trains, set rotation X=-52 on all six.
+  - But if you get stuck because you made edits in the "assembled" position, here is how to return all objects to their printing positions...
+  - Press A ("Select All"), then ALT+R ("Clear Rotations") to gather all of the trains back in the same position.
+  - Individually select the six trains from the object hierarchy in the Scene Collection panel, and set rotation X=-52 on all six. 
   - Engine block and engine pipes, set rotation X=-90
   - Engine block set rotation Z=180
   - Dome top and hands, set rotation X=180
@@ -278,15 +279,15 @@ Returning objects to printing position:
   - Beak Top, Rotation X=-90
   - Beak Bottom, Rotation X=-90
   - Press Numpad 7 to view the scene orthographically from the top (looking down at the x/y plane)
-    - Select each piece and press G (grab) and then move into the desired positions on the x/y plane.
+    - Individually select each piece with the mouse and press G ("Grab") and then move into the desired positions on the x/y plane.
     - Make sure to move the Barrel and the Barrel Crossbars as a single unit so that their positions don't become desynchronized.
-    - Position pieces which need their "insides" painted so that both sides can be more easily spray painted in each group. Examples:
-      - Upper beak inside.
-      - Underside of the two dangling engine block exhaust pipes.
-      - Shoulder sections with their spring attachment points both facing away from the hoverskirt.
-      - Open/inner section of Face facing away from the barrel.
-      - Clear domes with their inner faces aiming up at the sky and enough space between them to easily clearcoat both inside and outside without removing from the supports.
-    - Press Numpad 1 to view the scene orthographically from the front. Select each piece and press G and move each piece into vertical position just above the world plane (this will be the print bed).
+    - Position any pieces which need their "insides" painted, so that both sides can be more easily spray painted while they are still on the supports. Position these features so they are facing the outside of the group. Examples:
+      - Upper beak inside surface.
+      - Underside of the two protrusions at the bottom of the the engine block.
+      - Position the shoulder sections so that their their spring attachment points are facing away from the hoverskirt.
+      - The open/inner section of Face should be facing away from the barrel.
+      - The clear domes should have enough space between them to easily clearcoat both their inside and outside without removing them from the supports.
+  - Press Numpad 1 to view the scene orthographically from the front. Select each piece and press G and move each piece into a vertical position slightly above the world plane (the world plane will be the location of the print bed when printing).
 
 Differences in Tom's appearance:
 
@@ -315,4 +316,6 @@ Print, paint, and assemble all parts again, after several major redesigns and ch
 Try the anti-aliasing feature in Chitubox when reprinting.
 
 If assembly went OK, then delete the "backup" objects from the blender file.
+
+
 
