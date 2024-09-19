@@ -10,8 +10,8 @@ Required hardware: A 3D resin printer and a wash/cure station. I'm using an Anyc
 
 Required software:
 
-  - Blender: https://www.blender.org/
-  - Chitubox (free basic version): https://www.chitubox.com/en/download/chitubox-free
+  - Blender (I'm using v3.6): https://www.blender.org/
+  - Chitubox Basic (I'm using 1.9.4): https://www.chitubox.com/en/download/chitubox-free
     - Another slicer other than Chitubox will also work.
 
 
