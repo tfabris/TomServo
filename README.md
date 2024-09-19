@@ -176,13 +176,13 @@ Paint colors that I used (you can substitute all but the first two):
   - Testors 1149 Flat Black bottle paint.
   - Testors 1147 Gloss Black bottle paint.
 
-Process:
+Painting:
 
   - Red and Silver parts are first spray-painted silver together:
     - Silver is an undercoat for the red, important for a screen-accurate shine. I used "metallic aluminum" color.
-    - After drying, remove only the silver parts from the supports (2 beak parts and 2 engine pipe sets) and set them aside. Leave the rest on the supports to get the red coat atop the silver.
+    - After drying, remove only the silver parts from the supports (2 beak parts and 2 engine pipe sets) and set them aside. Leave the rest on the supports, to paint the red coat atop the silver.
   - Red:
-      - The Testors red flake it tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
+      - The Testors red flake is tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
       - After dry, remove the top hat from the supports, and hand-paint its inner side, which is visible through Tom's clear head.
   - Inside of Tom's mouth:
     - Inner section of Tom's lower beak should be hand-painted flat black.
