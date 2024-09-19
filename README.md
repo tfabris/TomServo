@@ -1,5 +1,5 @@
-Tom Servo Print and assembly notes
-==================================
+Tom Servo - Print and Assembly Notes
+====================================
 &copy; 2024 by Tony Fabris
 
 A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet.
@@ -15,7 +15,7 @@ Required software:
     - Another slicer other than Chitubox will also work.
 
 
-Where these designs originated:
+Where These Designs Originated:
 -------------------------------
 
 Most parts were originally from a set of 3D models by @Pack_512 found on the Printables.com web site. These were originally intended to print full size puppet parts on a PLA printer. However they did not include every part, and the parts they did include needed some modification for the resin printing. Originals were found at:
@@ -38,7 +38,7 @@ Reference Material:
   - I have also placed some reference photos in this archive.
 
 
-External parts:
+External Parts:
 ---------------
 
 You'll need to source some external parts to complete this model.
@@ -59,7 +59,7 @@ Head globe:
     - https://www.amazon.com/gp/product/B0776NHB88
 
 
-Exporting models from Blender for printing:
+Exporting Models From Blender for Printing:
 -------------------------------------------
 
 Open the ".blend" file in Blender and do the following:
