@@ -4,15 +4,12 @@ Tom Servo - Resin Print Model
 
 A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet.
 
-Required hardware: A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3 but other resin printers will work too:
-
-  - https://www.anycubic.com/
+Required hardware: A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com/
 
 Required software:
 
-  - Blender (I'm using v3.6): https://www.blender.org/
-  - Chitubox Basic (I'm using 1.9.4): https://www.chitubox.com/en/download/chitubox-free
-    - Another slicer other than Chitubox will also work.
+  - Blender (I'm using v3.6 at the moment): https://www.blender.org/
+  - A slicer program. I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
 
 
 Where These Designs Originated:
@@ -62,18 +59,22 @@ Head globe:
 Exporting Models From Blender for Printing:
 -------------------------------------------
 
-Open the ".blend" file in Blender and do the following:
+Instructions below are for Blender version 3.6, later versions might work a little differently.
 
+  - Open the ".blend" file in Blender.
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
-    - Select the "Scene" properties panel. Find the Properties panel, which is the lower right hand panel in the UI, select its fifth icon which is "Scene Properties"), expand the "Units" section and set the Unit Scale to 2.275.
+    - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
   - Make sure the realtime viewport display of the modifiers on the "Barrel" object are enabled, so that it prints with the correct faux wood grain texture.
-    - Select the "Barrel" object.
-    - There should be two modifiers on the object (Subdivision and Displace), seen in the Modifiers panel, which is the wrench icon in the properties panel.
-    - Examine the "Realtime" button for each of the two modifiers. The button icon looks like a tiny LCD screen on the modifier panel, and it should be lit up blue.
+    - Select the "Barrel" object, it should have an orange outline.
+    - There should be two modifiers on the object (Subdivision and Displace), seen in the "Modifiers" panel, lower right hand panel in the UI, press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
+    - Examine the "Realtime" button for each of the two modifiers. The button is the third of four icons next to the modifier name. The button icon looks like a tiny LCD screen on the modifier panel.
+      - If the icon is gray, it means the realtime display for that modifier is turned off.
+      - If the icon is lit up blue and white, the realtime display for that modifier is turned on.
+      - Make sure the realtime display is turned on for the Subdivision and Displace modifiers.
     - Do not "APPLY" these modifiers or else everything will run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
-    - If you are doing editing on this blender file, speed will improve if you turn off the realtime viewport display of these two modifiers. Don't forget to turn them back on before exporting.
+    - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these two modifiers. Don't forget to turn them back on before exporting.
   - In the main viewport window, group-select the objects you want to print.
-    - You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll probably be painting most of the pieces anyway, since the resin colors will not be very close to the real colors.
+    - You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
     - Select the objects arranged in each color group:
       - Clear objects:
         - Dome Bottom/Top
@@ -95,9 +96,9 @@ Open the ".blend" file in Blender and do the following:
   - Make sure ONLY the desired objects are selected before exporting.
   - File, Export, .STL, export each of the color groups above as a separate file.
   - Make absolutely sure these tickyboxes are ticked:
-    - "Selection Only" <- IMPORTANT
-    - "Scene Unit" <- IMPORTANT
-    - "Apply Modifiers" <-IMPORTANT
+    - "Selection Only" ← IMPORTANT
+    - "Scene Unit" ← IMPORTANT
+    - "Apply Modifiers" ← IMPORTANT
   - Export each group as their own STL files:
     - Tom Clear.stl
     - Tom Red Silver.stl
@@ -113,7 +114,7 @@ Open the ".blend" file in Blender and do the following:
 Slicing:
 --------
 
-You may use any slicer to process the files. Instructions here are for Chitubox, since it has a free version. If you are using another slicer, find the equivalent features. 
+You may use any slicer to process the files. Instructions here are for Chitubox Basic v1.9.4. If you are using another slicer, find the equivalent features. 
 
 Create a new project in the slicer and then:
 
@@ -129,9 +130,9 @@ Create a new project in the slicer and then:
     - Goals when editing supports:
       - Make sure that, where possible, the supports attach only to places which are less visible. Delete supports which will mar the finish of the visible portions of the model, but only if you can safely delete them without causing a printing problem.
         - To remove a support in Chitubox, click the "Delete Support" button (it's one of the four icons at the bottom of the support editor panel), HOLD DOWN the D key, and click on each support you want to delete.
-      - Make sure there is enough gap space between the supports to drain out the resin/paint/clearcoat.
-      - Also make sure that the smallest parts have enough supports. Every piece, even the tiniest ones, should have at least 3-4 supports so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small and tend to come undone from the supports during printing, causing the resulting parts to be curled a little. Fix this by adding additional supports to each of these parts at their ends.
-      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports tto the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. So rein those supports in so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit.
+      - Make sure there is enough gap space between the supports to drain out excess resin/paint/clearcoat.
+      - Also make sure that the smallest parts have enough supports. Even the tiniest pieces should have at least 4-6 supports, so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small, causing the slicer to add too few supports to these objects. With too few supports, the objects tend to disconnect from the supports during printing, causing the resulting parts to be curled. Fix this by adding additional supports.
+      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports tto the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. So rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit.
   - For the clear parts (the head domes):
     - They are deliberately oriented so that the small ends of each bowl are close to the raft. The large ends of each bowl are free-floating in the air. This is done to print the larger circle edges clean (no supports) where the two halves of the dome meet each other, and to make it easy to do any post-print treatment if needed.
     - Make sure that the only supports for the clear domes are the ones on the bottom-most edges, the inner smaller circles. Delete any supports which touch the smooth sections of the domes. 
@@ -140,7 +141,7 @@ Create a new project in the slicer and then:
   - Save the slicer project file with the same name as the thing you imported.
   - Press "Slice" and wait for it to process.
      - Chitubox will prompt you for your exposure time settings. Change these as needed based on your printer and resin. (Other slicers will have different methods for editing the exposure times.)
-       - I personally set "Exposure time(s)" to 4 and "Bottom Exposure time(s)" to 20, but your printer and resin may differ. I also had to double my exposure time for clear resin.
+       - I personally set "Exposure time(s)" to 4 and "Bottom Exposure time(s)" to 20, but your printer and resin may differ. I also had to double my exposure time for the clear resin.
   - Press "Save" in the slicing screen, it creates a ".pm3" file for the printer which you put on your USB stick and take to the printer.
   - Delete the STL file of the color group you just sliced. Reasons: The files can be very large (Red/Silver in particular), you don't need the STL files any more, and you can regenerate STLs from the .blend file whenever you want. Also, most importantly, on MacOS, large STL files cause a bug in the operating system which cause the process SceneKitQLThumbnailExtension to consume all of the CPU cycles, slow down your programs, and make the computer run hot.
 
