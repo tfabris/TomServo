@@ -304,6 +304,15 @@ Remove the "notches" from the shoulder pauldrons where they meet up with the bar
 The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials.
 
 The hands are not screen-accurate and need to be improved. Re-model them to match reference materials.
+- WIP: More bent fingers a bit
+- WIP: Thumb is weirdly set back so that the thumb's "heel" is just kind of forced back on the hand.
+- WIP: Puffier hand palm sections
+- WIP: Scene unit 1.7
+- WIP: 10% smaller wrist
+- WIP: Shorter wrist
+- WIP: Crispen wrist (set a sharp edge)
+- WIP: Circularize wrist
+- WIP: Notch wrist
 
 Trains could still be improved:
 
