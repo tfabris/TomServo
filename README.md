@@ -205,7 +205,7 @@ In some cases it may be easier to leave larger parts on the supports while attac
 
 If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you sliced the parts, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary.
 
-For glue, I'm using Loctite brand Cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer ZAP Canopy Glue.
+For glue, I'm using Loctite brand Cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
 
 In some cases it may produce better results if you scrape away the paint where the parts attach to each other.
 
