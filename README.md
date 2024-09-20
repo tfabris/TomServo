@@ -299,23 +299,20 @@ Differences in Tom's appearance:
 To Do:
 ------
 
+We're going up a spring size, from 6mm to 7mm. Make sure that you get the correct size when modeling the new shoulder pieces.
+- 6mm is about 85.7%   of 7mm. 
+- 7mm is about 116.67% of 6mm.
+
 Remove the "notches" from the shoulder pauldrons where they meet up with the barrel ring. On screen, there are no notches, the pauldrons are just attached. Come up with a way for them to fit the kit well, without the notches.
 
-The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials.
+The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials. Also go up a spring size as described above.
 
 The hands are not screen-accurate and need to be improved. Re-model them to match reference materials.
-- WIP: More bent fingers a bit
-- WIP: Thumb is weirdly set back so that the thumb's "heel" is just kind of forced back on the hand.
-- WIP: Puffier hand palm sections
-- WIP: Scene unit 1.7
-- WIP: 10% smaller wrist
-- WIP: Shorter wrist
-- WIP: Crispen wrist (set a sharp edge)
-- WIP: Circularize wrist
-- WIP: Notch wrist
+- Fingertips are too square from certain angles
+- pinky tip needs to stick up more, rather than curling down. Just a little.
+- Heel of the thumb needs to jut out even more in that weird way you can see in the reference photos.
 
 Trains could still be improved:
-
   - Wider maybe?
   - Non-circularness of circular features could be improved.
   - Consider making the train edges have a "lip" thickness so that they print reliably out to their edges.
