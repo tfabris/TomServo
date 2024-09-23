@@ -308,8 +308,6 @@ Remove the "notches" from the shoulder pauldrons where they meet up with the bar
 The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials. Also go up a spring size as described above.
 
 The hands are not screen-accurate and need to be improved. Re-model them to match reference materials.
-- Finger segments which are closest to the palm need to be the largest in terms of diameter.
-- Make sure the gap between the fingers is gone before sculpting wrinkles.
 - Sculpt wrinkles.
 
 Trains could still be improved:
