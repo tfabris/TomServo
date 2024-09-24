@@ -19,10 +19,11 @@ Most parts were originally from a set of 3D models by @Pack_512 found on the Pri
 
   - https://www.printables.com/en/model/98987/files
 
-The hoverskirt, skirt rim, barrel surface detail, and other modifications, are by Tony Fabris:
+The hoverskirt, doll hands, and skirt rim were created from scratch by me, Tony Fabris. 
 
-  - Barrel surface detail is done as a "Displacement Map" modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". Source layers for the PNG are found in "BarrelWoodgrain.xcf" is also included for convenience, and can be opened in GIMP if needed.
-  - I have made many modifications to @Pack_512's parts to make them easier to resin-print, paint, and assemble into a small model. For example, certain thin parts have been made thicker so that their resin doesn't crumble, and certain parts which fit together have had their fit loosened so that they can still be pressed together even when they have a thick coat of shiny paint on them. 
+Barrel surface detail is done as a "Displacement Map" modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". Source layers for the PNG are found in "BarrelWoodgrain.xcf" is also included for convenience, and can be opened in GIMP if needed.
+
+I have made many modifications to @Pack_512's parts to make them easier to resin-print, paint, and assemble into a small model. For example, certain thin parts have been made thicker so that their resin doesn't crumble, and certain parts which fit together have had their fit loosened so that they can still be pressed together even when they have a thick coat of shiny paint on them. 
 
 Reference Material:
 
@@ -43,7 +44,7 @@ You'll need to source some external parts to complete this model.
 Arm springs:
 
   - Spring type: Extension spring.
-  - Spring size: Approx 6mm (0.24in) wide, 2.5cm or longer length (will be cut to length).
+  - Spring size: Approx 7mm (0.028in) wide, 25mm or longer length (will be cut to length).
   - Example:
     - https://www.amazon.com/dp/B0CXJMNDDL
 
@@ -273,7 +274,8 @@ Returning objects to printing position:
   - Individually select the six trains from the object hierarchy in the Scene Collection panel, and set rotation X=-52 on all six. 
   - Engine block and engine pipes, set rotation X=-90
   - Engine block set rotation Z=180
-  - Dome top and hands, set rotation X=180
+  - Dome top, set rotation X=180
+  - Hands, set rotation X=180
   - Shoulder 1: Rotation X=180, Y=95.5
   - Shoulder 2: Rotation Y=-84.5
   - Jaw Top, Rotation X=-90
@@ -303,18 +305,15 @@ We're going up a spring size, from 6mm to 7mm. Make sure that you get the correc
 - 6mm is about 85.7%   of 7mm. 
 - 7mm is about 116.67% of 6mm.
 
-Remove the "notches" from the shoulder pauldrons where they meet up with the barrel ring. On screen, there are no notches, the pauldrons are just attached. Come up with a way for them to fit the kit well, without the notches.
-
 The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials. Also go up a spring size as described above.
 
-The hands are not screen-accurate and need to be improved. Re-model them to match reference materials.
-- Sculpt wrinkles.
+Remove the "notches" from the shoulder pauldrons where they meet up with the barrel ring. On screen, there are no notches, the pauldrons are just attached. Come up with a way for them to fit the kit well, without the notches.
 
-Trains could still be improved:
-  - Wider maybe?
-  - Non-circularness of circular features could be improved.
+Trains still need to be improved:
+  - Wider
+  - Non-circularness of circular features must be corrected.
   - Consider making the train edges have a "lip" thickness so that they print reliably out to their edges.
-  - Make them blobby like they were vacu-formed, rather than crisp.
+  - Make them blobby like they were vacu-formed, rather than crisp (possibly just apply a subdivision modifier to smooth them).
 
 Print, paint, and assemble all parts again, after several major redesigns and changes.
 
