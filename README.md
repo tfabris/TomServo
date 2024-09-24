@@ -62,7 +62,8 @@ Exporting Models From Blender for Printing:
 
 Instructions below are for Blender version 3.6, later versions might work a little differently.
 
-  - Open the ".blend" file in Blender.
+  - Open the "Tom.blend" file in Blender.
+    - Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
     - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
   - Make sure the realtime viewport display of the modifiers on the "Barrel" object are enabled, so that it prints with the correct faux wood grain texture.
@@ -105,11 +106,11 @@ Instructions below are for Blender version 3.6, later versions might work a litt
     - Tom Red Silver.stl
     - Tom White.stl
     - Tom Black.stl
-  - Note: The Red/Silver group is expected to be slow to export, and slow to import and work in Chitubox, due to the complex surface detail modifiers on the barrel.
+  - Note: The Red/Silver group is expected to be slow to export, and slow to import and slice in slicer programs, due to the complex surface detail modifiers on the barrel.
   - Note: SceneKitQLThumbnailExtension - When you export a particularly large and complex STL file, such as the Red/Silver group's STL file, a problem can occur. If you happen to be running on an Apple Macintosh computer, there is an unfixed bug in the operating system which occurs when you have a large STL file on the hard disk. The invisible background program "SceneKitQLThumbnailExtension" attempts to create a preview image of the STL file and it will spin the CPU up to 200 percent, make your computer run hot, the fan will spin loudly, and all programs on the computer will run slow and have a tendency to "beachball" on every simple task. To work around this, do the following:
     - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension and terminate it with the little X button in the toolbar (choose Force Quit).
     - Delete the STL file as soon as you are done slicing and generating the PM3 file.
-  - Trivia: The Blender file is measured in "meters", but when you import the STL files in Chitubox, it will use "millimeters" as its measurement system when importing them.
+  - Trivia: The Blender file is measured in "meters", but when you import the STL files in your slicer, it will use "millimeters" as its measurement system when importing them.
 
 
 Slicing:
@@ -133,7 +134,7 @@ Create a new project in the slicer and then:
         - To remove a support in Chitubox, click the "Delete Support" button (it's one of the four icons at the bottom of the support editor panel), HOLD DOWN the D key, and click on each support you want to delete.
       - Make sure there is enough gap space between the supports to drain out excess resin/paint/clearcoat.
       - Also make sure that the smallest parts have enough supports. Even the tiniest pieces should have at least 4-6 supports, so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small, causing the slicer to add too few supports to these objects. With too few supports, the objects tend to disconnect from the supports during printing, causing the resulting parts to be curled. Fix this by adding additional supports.
-      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports tto the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. So rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit.
+      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports to the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. So rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit.
   - For the clear parts (the head domes):
     - They are deliberately oriented so that the small ends of each bowl are close to the raft. The large ends of each bowl are free-floating in the air. This is done to print the larger circle edges clean (no supports) where the two halves of the dome meet each other, and to make it easy to do any post-print treatment if needed.
     - Make sure that the only supports for the clear domes are the ones on the bottom-most edges, the inner smaller circles. Delete any supports which touch the smooth sections of the domes. 
@@ -144,7 +145,7 @@ Create a new project in the slicer and then:
      - Chitubox will prompt you for your exposure time settings. Change these as needed based on your printer and resin. (Other slicers will have different methods for editing the exposure times.)
        - I personally set "Exposure time(s)" to 4 and "Bottom Exposure time(s)" to 20, but your printer and resin may differ. I also had to double my exposure time for the clear resin.
   - Press "Save" in the slicing screen, it creates a ".pm3" file for the printer which you put on your USB stick and take to the printer.
-  - Delete the STL file of the color group you just sliced. Reasons: The files can be very large (Red/Silver in particular), you don't need the STL files any more, and you can regenerate STLs from the .blend file whenever you want. Also, most importantly, on MacOS, large STL files cause a bug in the operating system which cause the process SceneKitQLThumbnailExtension to consume all of the CPU cycles, slow down your programs, and make the computer run hot.
+  - Delete the STL file of the color group you just sliced. Reasons: The files can be very large (Red/Silver in particular), you don't need the STL files any more, and you can regenerate STLs from the .blend file whenever you want. Also, most importantly, on MacOS, large STL files cause a bug in the operating system which cause the background process SceneKitQLThumbnailExtension to consume all of the computer's CPU cycles, slow down all your programs, and make the computer run hot.
 
 
 Printing:
@@ -256,7 +257,7 @@ Dome:
 Notes:
 ------
 
-The blender file is saved with the pieces already moved into their printing positions. To view the parts in "assembled" position:
+The Tom.blend file is saved with the pieces already moved into their printing positions. To view the parts in "assembled" position:
 
   - Make sure you are in Object Mode in Blender.
   - Press A ("Select All")
