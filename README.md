@@ -135,6 +135,7 @@ Create a new project in the slicer and then:
       - Make sure there is enough gap space between the supports to drain out excess resin/paint/clearcoat.
       - Also make sure that the smallest parts have enough supports. Even the tiniest pieces should have at least 4-6 supports, so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small, causing the slicer to add too few supports to these objects. With too few supports, the objects tend to disconnect from the supports during printing, causing the resulting parts to be curled. Fix this by adding additional supports.
       - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports to the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. So rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit.
+      - Add extra supports to the shoulder pieces so that you can safely leave them on the supports while you connect the springs onto the shoulders.
   - For the clear parts (the head domes):
     - They are deliberately oriented so that the small ends of each bowl are close to the raft. The large ends of each bowl are free-floating in the air. This is done to print the larger circle edges clean (no supports) where the two halves of the dome meet each other, and to make it easy to do any post-print treatment if needed.
     - Make sure that the only supports for the clear domes are the ones on the bottom-most edges, the inner smaller circles. Delete any supports which touch the smooth sections of the domes. 
@@ -306,11 +307,22 @@ We're going up a spring size, from 6mm to 7mm. Make sure that you get the correc
 - 6mm is about 85.7%   of 7mm. 
 - 7mm is about 116.67% of 6mm.
 
-The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials. Also go up a spring size as described above.
+The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials.
+- base section even stubbier, but the distance and angle are now correct.
+- Merge them with the pauldrons once the other pauldron work is done. Just join, don't boolean them.
 
-Remove the "notches" from the shoulder pauldrons where they meet up with the barrel ring. On screen, there are no notches, the pauldrons are just attached. Come up with a way for them to fit the kit well, without the notches.
+Shoulder pauldron updates:
+- Barrel strap grooves in the shoulder pauldrons need to be widened to make room for paint layers.
+- The flat strips where I removed the ridges need to have joins across the segments so that it prints as expected.
+- Remove the "notches" from the shoulder pauldrons where they meet up with the barrel ring. On screen, there are no notches, the pauldrons are just attached. Come up with a way for them to fit the kit well, without the notches.
 
-Trains still need to be improved:
+Engine block:
+- Does it need to be updated so that it's barrel strap grooves fit better, like on the pauldrons?
+
+Barrel:
+- Mounting pins for the holes in the shoulders.
+
+Trains:
   - Wider
   - Non-circularness of circular features must be corrected.
   - Consider making the train edges have a "lip" thickness so that they print reliably out to their edges.
