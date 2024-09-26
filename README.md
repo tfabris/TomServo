@@ -307,21 +307,15 @@ We're going up a spring size, from 6mm to 7mm. Make sure that you get the correc
 - 6mm is about 85.7%   of 7mm. 
 - 7mm is about 116.67% of 6mm.
 
-Engine block:
-- Does it need to be updated so that it's barrel strap grooves fit better, like on the pauldrons?
-
-Barrel:
-- Mounting pins for the holes in the shoulders.
-
 Trains:
   - Wider
   - Non-circularness of circular features must be corrected.
-  - Consider making the train edges have a "lip" thickness so that they print reliably out to their edges.
+  - Make the train edges have a "lip" thickness so that they print reliably out to their edges.
   - Make them blobby like they were vacu-formed, rather than crisp (possibly just apply a subdivision modifier to smooth them).
 
 Print, paint, and assemble all parts again, after several major redesigns and changes.
 
-Try the anti-aliasing feature in Chitubox when reprinting.
+Try the anti-aliasing feature in C7hitubox when reprinting.
 
 If assembly went OK, then delete the "backup" objects from the blender file.
 
