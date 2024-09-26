@@ -307,15 +307,6 @@ We're going up a spring size, from 6mm to 7mm. Make sure that you get the correc
 - 6mm is about 85.7%   of 7mm. 
 - 7mm is about 116.67% of 6mm.
 
-The shoulder "tube" pieces, inside the pauldrons, are not screen-accurate. Re-model them to match reference materials.
-- base section even stubbier, but the distance and angle are now correct.
-- Merge them with the pauldrons once the other pauldron work is done. Just join, don't boolean them.
-
-Shoulder pauldron updates:
-- Barrel strap grooves in the shoulder pauldrons need to be widened to make room for paint layers.
-- The flat strips where I removed the ridges need to have joins across the segments so that it prints as expected.
-- Remove the "notches" from the shoulder pauldrons where they meet up with the barrel ring. On screen, there are no notches, the pauldrons are just attached. Come up with a way for them to fit the kit well, without the notches.
-
 Engine block:
 - Does it need to be updated so that it's barrel strap grooves fit better, like on the pauldrons?
 
