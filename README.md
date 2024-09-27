@@ -21,9 +21,10 @@ Most parts were originally from a set of 3D models by @Pack_512 found on the Pri
 
 The hoverskirt, doll hands, and skirt rim were created from scratch by me, Tony Fabris. 
 
-Barrel surface detail is done as a "Displacement Map" modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". Source layers for the PNG are found in "BarrelWoodgrain.xcf" is also included for convenience, and can be opened in GIMP if needed.
+I have made many modifications to @Pack_512's parts to make them more screen-accurate, easier to resin-print, paint, and assemble into a small model. 
 
-I have made many modifications to @Pack_512's parts to make them easier to resin-print, paint, and assemble into a small model. For example, certain thin parts have been made thicker so that their resin doesn't crumble, and certain parts which fit together have had their fit loosened so that they can still be pressed together even when they have a thick coat of shiny paint on them. 
+I added barrel surface detail to the @Pack_512 barrel part, done as a Displacement Map modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". Source layers for the PNG are found in "BarrelWoodgrain.xcf" is also included for convenience, and can be opened in GIMP if needed.
+
 
 Reference Material:
 
