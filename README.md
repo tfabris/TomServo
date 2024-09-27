@@ -234,7 +234,7 @@ Barrel:
 Arms:
 
   - Cut the arm springs to your desired arm length based on photographic references. Cut away the curls at the ends of the springs so that they are just pure spirals with no protrusions.
-    - **WARNING:** Cut spring ends are SHARP and will stab you when you try to attach them if you slip while attaching. Always make sure that you are pressing or twisting AWAY from fingertips when assembling.
+    - **WARNING:** Cut spring ends are SHARP! They will stab you when you try to attach them, if you slip while attaching. Always make sure that you are pressing or twisting AWAY from your fingertips when assembling.
   - Stretch out the last loop of each end of each spring, very slightly, to make it easier to wrap the springs into the slots on the shoulders and hands. You may need to stretch the springs in two directions: both enlarging the circumference of the last loop by a tiny amount, and also lifting the last loop lengthwise away from the other loops.
   - Attach springs to hands, and then to shoulders, by wrapping the last loop of each spring into the slots on the hands and shoulders. Tips:
     - Wait for the white paint/clearcoat to be fully dried and cured before doing this, because it involves tightly gripping the parts.
