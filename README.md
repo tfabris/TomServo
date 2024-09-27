@@ -49,7 +49,7 @@ Arm springs:
   - Example:
     - https://www.amazon.com/dp/B0CXJMNDDL
     - The linked example springs are too heavy-duty, and are hard to attach. Find lighter-weight springs than those if possible. Send me a link if you find some.
-l
+
 Head globe (optional):
 
   - You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is also sized to fit a commonly-available plastic globe "fillable Christmas ornament":
