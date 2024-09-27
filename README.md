@@ -146,7 +146,7 @@ Create a new project in your slicer and then:
     - They are deliberately oriented so that the small ends of each bowl are close to the raft. The large ends of each bowl are free-floating in the air. This is done to print the larger circle edges clean (no supports) where the two halves of the dome meet each other, and to make it easy to do any post-print treatment if needed.
     - Make sure that the only supports for the clear domes are the ones on the bottom-most edges, the inner smaller circles. Delete any supports which touch the smooth sections of the domes. 
     - Change the height of the supports so that the printed domes are raised higher above the rafts than the default. This is to help resin and clearcoat being able to drain out the small holes beneath the domes during the finishing process.
-  - When done editing supports, save the slicer project file with the same name as the thing you imported.
+  - When done editing supports, save the slicer project file again.
   - Go into your slicer's final slicing screen.
      - Chitubox will prompt you for your exposure time settings at this point. Other slicers may have different methods for editing the exposure settings. Change the settings as needed, based on your printer and resin. 
        - I personally set my exposure time to 4 and my bottom-layer exposure time to 20, but your printer and resin may differ. I also had needed to double my exposure time for printing clear resin.
