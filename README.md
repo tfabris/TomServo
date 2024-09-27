@@ -211,7 +211,7 @@ Assembly:
 
 Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep the neck and lower beak so that they stay moveable if possible, by fitting those particular parts without gluing. Use photographic references to ensure correct part positioning where needed.
 
-In some cases it may be easier to leave larger parts on the supports while attaching smaller parts to them. For example, leaving the face section on the supports while attaching the beak, or leaving the engine block on the supports while attaching the engine pipes. 
+In some cases it may be easier to leave larger parts on the supports while attaching smaller parts to them.
 
 If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
 
