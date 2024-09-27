@@ -175,7 +175,7 @@ Print the .pm3 files on your resin printer.
 Painting:
 ---------
 
-Prime and paint the parts while they are still on the supports, so that they are easier to handle.
+Prime and paint the parts while they are still on the supports, so that they are easier to handle. In addition to ensuring that each color group prints together on the same raft, I also like to glue the end of a popsickle stick to the bottom of each raft, so that I have a handle to hold during spray-painting.
 
 Paint colors that I used:
 
@@ -213,7 +213,7 @@ Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep t
 
 In some cases it may be easier to leave larger parts on the supports while attaching smaller parts to them. For example, leaving the face section on the supports while attaching the beak, or leaving the engine block on the supports while attaching the engine pipes. 
 
-If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you sliced the parts, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
+If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
 
 For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
 
