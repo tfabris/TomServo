@@ -318,6 +318,9 @@ We're going up a spring size, from 6mm to 7mm. Make sure that you get the correc
 - 6mm is about 85.7%   of 7mm. 
 - 7mm is about 116.67% of 6mm.
 
+Shoulders: 
+- Enlarge and deepen the peg holes. Make them go as deep as possible. They tend to get filled in with resin despite rinsing well.
+
 Trains:
   - Make them blobby like they were vacu-formed.
 
