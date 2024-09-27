@@ -47,10 +47,11 @@ Arm springs:
   - Spring size: Approx 7mm (0.028in) wide, 25mm or longer length (will be cut to length).
   - Example:
     - https://www.amazon.com/dp/B0CXJMNDDL
+    - The linked example springs are too heavy-duty, and are hard to attach. Find lighter-weight springs than those if possible. Send me a link if you find some.
+l
+Head globe (optional):
 
-Head globe:
-
-  - Head globe is optional; You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is sized to fit a commonly-available plastic globe "fillable Christmas ornament":
+  - You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is also sized to fit a commonly-available plastic globe "fillable Christmas ornament":
   - Globe size: Approx 3cm (1.18in) diameter.
   - Examples:
     - https://www.amazon.com/gp/product/B07QH5QVCW
@@ -62,7 +63,7 @@ Exporting Models From Blender for Printing:
 
 Instructions below are for Blender version 3.6, later versions might work a little differently.
 
-Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts.** The parts are already in their printing positions.
+Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions.
 
   - Open the "Tom.blend" file in Blender.
     - Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.
@@ -155,16 +156,19 @@ Create a new project in your slicer and then:
 Printing:
 ---------
 
-Copy the .pm3 files to a USB stick, and print them on your resin printer.
+Print the .pm3 files on your resin printer.
 
-- Print each of the color groups. Best results will be obtained if you prime and paint the parts, so printing in specific resin colors is not required except for the clear resin parts.
+- Print each of the color groups. 
+- Optional: Print the white parts in white resin, the head domes in clear resin, and the remainder of the parts in black resin.
+  - Since white resin is still kind of yellowish, the white parts will still need to be primed and painted in order to be screen-accurate, however, some of the paint will inevitably get scraped away when you attach the arm springs, so those areas will look better if they are printed in white resin.
+  - The hoverskirt ring (the pipe insulation) might not need to be painted if it's printed in black resin.
 - Leave the parts on the supports to make them easy to paint.
 - Rinse/dry/cure the parts while still on the supports.
 - Clear resin printing tips:
   - Working with clear resin is tricky, do some web searches to find lots of tips. I had some success with this strategy (though still not perfect):
     - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure time from 4 to 8 seconds, but your printer and resin may vary).
-    - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time.
-    - I found that I could get a reasonably nice crystal clear finish if I didn't rinse the clear domes, just kept them goopy with resin and went straight to curing. If you try to do this, you'll need to use a paper towel to dry-dab away the goopy resin on the edges of the "bowls" where they'll join each other, so that the crisp edges survive the curing process, and the two halves can join nicely.
+    - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time than usual.
+    - I found that I could get a reasonably nice crystal clear finish if I didn't rinse the clear domes, just kept them goopy with resin and went straight to curing. If you try to do this, you'll need to use a paper towel to dry-dab away the goopy resin on the edges of the "bowls" where they'll join each other, so that the crisp edges survive the curing process, and so the two halves can join nicely after they are cured.
 
 
 Painting:
@@ -172,7 +176,7 @@ Painting:
 
 Prime and paint the parts while they are still on the supports, so that they are easier to handle.
 
-Paint colors that I used (you can substitute all but the first two):
+Paint colors that I used:
 
   - Testors 1629T Red Metallic Flake spray paint. (Canonical screen-accurate color.)
   - Testors 1525 Red Metallic Flake bottle paint.
@@ -186,7 +190,7 @@ Painting:
 
   - Red and Silver parts are first spray-painted silver together:
     - Silver is an undercoat for the red, important for a screen-accurate shine. I used "metallic aluminum" color.
-    - After drying, remove only the silver parts from the supports (2 beak parts and 2 engine pipe sets) and set them aside. Leave the rest on the supports, to paint the red coat atop the silver.
+    - After drying, remove only the silver parts from the supports (2 beak parts and 2 engine pipe parts) and set them aside. Leave the rest on the supports, to paint the red coat atop the silver.
   - Red:
       - The Testors red flake is tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
       - After dry, remove the top hat from the supports, and hand-paint its inner side, which is visible through Tom's clear head.
@@ -196,7 +200,7 @@ Painting:
   - White:
     - Gloss white paint is hard to get an even coat. I had better luck using flat white primer followed by gloss clearcoat.
   - Black:
-    - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam. Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
+    - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam pipe insulation. Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
     - Paint the six trains gloss black.
   - Gloss clearcoat the clear resin parts.
 
@@ -229,11 +233,13 @@ Barrel:
 Arms:
 
   - Cut the arm springs to your desired arm length based on photographic references. Cut away the curls at the ends of the springs so that they are just pure spirals with no protrusions.
-  - Attach springs to hands, and to shoulders, by wrapping the last loop of each spring into the slots on the hands and shoulders. Tips:
-    - Wait for paint/clearcoat to be fully cured before doing this, because it involves tightly gripping the parts.
-    - Leaving the shoulder sections on the supports might make it easier to hold the shoulders while doing this. But the amount of force required might peel the shoulders off the supports anyway. Your choice.
-    - It's easiest if you attach to the hands to the springs first, then the springs to the shoulders.
-    - Stretch out the last loop of spring, very slightly, to make it easier to wrap the springs into the slots on the shoulders and hands. You may need to stretch the springs in two directions: both enlarging the circumference of the last loop by a tiny amount, and also lifting the last loop lengthwise away from the other loops.
+    - **WARNING:** Cut spring ends are SHARP and will stab you when you try to attach them if you slip while attaching. Always make sure that you are pressing or twisting AWAY from fingertips when assembling.
+  - Stretch out the last loop of each end of each spring, very slightly, to make it easier to wrap the springs into the slots on the shoulders and hands. You may need to stretch the springs in two directions: both enlarging the circumference of the last loop by a tiny amount, and also lifting the last loop lengthwise away from the other loops.
+  - Attach springs to hands, and then to shoulders, by wrapping the last loop of each spring into the slots on the hands and shoulders. Tips:
+    - Wait for the white paint/clearcoat to be fully dried and cured before doing this, because it involves tightly gripping the parts.
+    - Wear nitrile gloves for assembling the arms, it helps prevent your skin from damaging the gloss white paint as you grip the parts.
+    - Needle-nose pliers are useful to hold the loose end of the spring while attaching to the hands.
+    - Leaving the shoulder sections on the supports makes it easier to hold the shoulders while connecting the springs.
     - Make sure the hands are rotated into the correct orientation relative to the shoulders.
   - Depending on the springs, they might be on there firmly enough so that they don't need glue. If not, reinforce with glue.
   - Glue Shoulder assemblies to the barrel top sides at 90 degrees from the engine block. Make sure the hands are in the correct orientation before gluing.
@@ -269,12 +275,13 @@ The Tom.blend file is saved with the pieces already moved into their printing po
   - Press ALT+R ("Clear Rotations")
   - Tom should now be fully assembled at 0,0 with objects in the correct rotations.
   - However the trains are still all gathered at the front position. Rotate them into their final positions around the hoverskirt at 60 degrees apart: Individually select the six trains from the object hierarchy in the Scene Collection panel, and set their Z rotations in this order: Z=0, Z=60, Z=120, Z=180, Z=240, Z=300.
+  - Do not "Save" the file in this position; you'll want to keep all objects in their printing positions for the future.
 
 Returning objects to printing position:
 
-  - Just reload the earlier save, don't try to do any edits in the "assembled" position.
-  - But if you get stuck because you made edits in the "assembled" position, here is how to return all objects to their printing positions...
-  - Press A ("Select All"), then ALT+R ("Clear Rotations") to gather all of the trains back in the same position.
+  - Just reload the original version of the file. Don't try to do any edits in the "assembled" position.
+  - But if you get stuck because you made edits in the "assembled" position, or if you moved some parts to check the fit of an edited part, here is how to return all objects to their printing positions.
+  - Press A ("Select All"), then ALT+R ("Clear Rotations") to gather all of the trains back in the same position at the front.
   - Individually select the six trains from the object hierarchy in the Scene Collection panel, and set rotation X=-52 on all six. 
   - Engine block and engine pipes, set rotation X=-90
   - Engine block set rotation Z=180
@@ -292,8 +299,7 @@ Returning objects to printing position:
       - Upper beak inside surface.
       - Underside of the two protrusions at the bottom of the the engine block.
       - Position the shoulder sections so that their their spring attachment points are facing away from the hoverskirt.
-      - The open/inner section of Face should be facing away from the barrel.
-      - The clear domes should have enough space between them to easily clearcoat both their inside and outside without removing them from the supports.
+      - The clear domes should have enough space between them to smoothly clearcoat both their inside and outside without removing them from the supports.
   - Press Numpad 1 to view the scene orthographically from the front. Select each piece and press G and move each piece into a vertical position slightly above the world plane (the world plane will be the location of the print bed when printing).
 
 Differences in Tom's appearance:
@@ -310,9 +316,7 @@ We're going up a spring size, from 6mm to 7mm. Make sure that you get the correc
 - 7mm is about 116.67% of 6mm.
 
 Trains:
-  - Make them blobby like they were vacu-formed, rather than crisp (possibly just apply a subdivision modifier to smooth them).
-
-Print, paint, and assemble all parts again, after several major redesigns and changes.
+  - Make them blobby like they were vacu-formed.
 
 If assembly went OK, then delete the "backup" objects from the blender file.
 
