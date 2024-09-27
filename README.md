@@ -62,6 +62,8 @@ Exporting Models From Blender for Printing:
 
 Instructions below are for Blender version 3.6, later versions might work a little differently.
 
+Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts.** The parts are already in their printing positions.
+
   - Open the "Tom.blend" file in Blender.
     - Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
@@ -108,9 +110,10 @@ Instructions below are for Blender version 3.6, later versions might work a litt
     - Tom Black.stl
   - Note: The Red/Silver group is expected to be slow to export, and slow to import and slice in slicer programs, due to the complex surface detail modifiers on the barrel.
   - Note: SceneKitQLThumbnailExtension - When you export a particularly large and complex STL file, such as the Red/Silver group's STL file, a problem can occur. If you happen to be running on an Apple Macintosh computer, there is an unfixed bug in the operating system which occurs when you have a large STL file on the hard disk. The invisible background program "SceneKitQLThumbnailExtension" attempts to create a preview image of the STL file and it will spin the CPU up to 200 percent, make your computer run hot, the fan will spin loudly, and all programs on the computer will run slow and have a tendency to "beachball" on every simple task. To work around this, do the following:
-    - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension and terminate it with the little X button in the toolbar (choose Force Quit).
-    - Delete the STL file as soon as you are done slicing and generating the PM3 file.
-  - Trivia: The Blender file is measured in "meters", but when you import the STL files in your slicer, it will use "millimeters" as its measurement system when importing them.
+    - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension and terminate it with the little X button in the toolbar (choose Force Quit). You may need to do this more than once.
+    - Delete the STL file from the hard disk as soon as you have imported the STL file into your slicer and saved the project in the slicer's format.
+
+Trivia: The Blender file is measured in "meters", but when you import the STL files in your slicer, it will use "millimeters" as its measurement system when importing them.
 
 
 Slicing:
@@ -118,35 +121,35 @@ Slicing:
 
 You may use any slicer to process the files. Instructions here are for Chitubox Basic v1.9.4. If you are using another slicer, find the equivalent features. 
 
-Create a new project in the slicer and then:
 
-  - Import one of the STL files.
-  - Switch to the support editing screen.
+Create a new project in your slicer and then:
+
+  - Import one of the color group STL files that you exported.
+  - Ensure the parts fit on the print bed and are centered.
+  - Keep the parts in their arranged positions when slicing. **Do not tilt the parts.** The parts were already in their correct printing positions in the original blender file.
+  - In the slicer, save the project file, in the slicer's file format.
+  - Delete the STL file you just imported. Reasons: The STL files can be very large (Red/Silver in particular), you don't need the STL file any more since you have the slicer project file, and you can regenerate STLs from the .blend file whenever you want. Most importantly, on MacOS, large STL files on the hard disk cause a bug in the operating system, detailed above.
+  - Switch to the support editing screen in your slicer.
     - Select the "Light" version of the supports.
-    - Select the "Raft" button to edit the raft parameters.
-      - "Raft Shape" = Skate
-      - "Raft Area Ratio(%)" = 120
-        - Enlarging the raft area ensures that the rafts are a bit larger, to make the rafts of each color group run together so that the parts all sit together on one large raft. This makes handling and painting easier. Adjust this number as needed.
-    - Press "+All" to add rafts and supports, adjust the raft area ratio if needed, and press "+All" again if you changed the raft size.
-    - Edit the supports (Chitubox requires that you rotate the view, to view the model from the bottom, to edit the supports).
-    - Goals when editing supports:
-      - Make sure that, where possible, the supports attach only to places which are less visible. Delete supports which will mar the finish of the visible portions of the model, but only if you can safely delete them without causing a printing problem.
-        - To remove a support in Chitubox, click the "Delete Support" button (it's one of the four icons at the bottom of the support editor panel), HOLD DOWN the D key, and click on each support you want to delete.
+    - Edit the "Raft" or "Base" parameters by selecting the appropriate screen in the support editor.
+    - Increase the size of the Rafts or Bases. Some slicers will give this as a percentage value, others will have you enter a specific size. Make them larger than the default. 
+    - This is to make each color group's rafts run together, so that the parts all sit together on one large raft. This makes them easier to handle and makes it possible to spray paint each color group as a single unit. Adjust this number as needed so that the rafts are big enough to overlap each other, but not so big that they exceed the print bed size.
+    - Press the appropriate button in your slicer to auto-add to add rafts and supports ("+All" in Chitubox), adjust the raft size again if needed, and press the button again if you changed the raft size.
+    - Edit the supports (You may need to rotate the view, to view the model from the bottom, to edit the supports). Goals when editing supports:
+      - Where possible, attach supports only to places which are less visible in the final model. Delete supports which will mar the finish of the visible portions of the model, but only if you can safely delete them without causing a printing problem.
       - Make sure there is enough gap space between the supports to drain out excess resin/paint/clearcoat.
-      - Also make sure that the smallest parts have enough supports. Even the tiniest pieces should have at least 4-6 supports, so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small, causing the slicer to add too few supports to these objects. With too few supports, the objects tend to disconnect from the supports during printing, causing the resulting parts to be curled. Fix this by adding additional supports.
-      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports to the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. So rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit.
-      - Add extra supports to the shoulder pieces so that you can safely leave them on the supports while you connect the springs onto the shoulders.
+      - Also make sure that the smallest parts have enough supports. Even the tiniest pieces should have at least 4-6 supports, so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small, causing the slicer to add too few supports to these objects. With too few supports, the objects tend to disconnect from the supports during printing, causing the resulting parts to be curled. Fix this by adding additional supports to tiny parts.
+      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports to the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. Rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit, just barely inside the edge.
   - For the clear parts (the head domes):
     - They are deliberately oriented so that the small ends of each bowl are close to the raft. The large ends of each bowl are free-floating in the air. This is done to print the larger circle edges clean (no supports) where the two halves of the dome meet each other, and to make it easy to do any post-print treatment if needed.
     - Make sure that the only supports for the clear domes are the ones on the bottom-most edges, the inner smaller circles. Delete any supports which touch the smooth sections of the domes. 
     - Change the height of the supports so that the printed domes are raised higher above the rafts than the default. This is to help resin and clearcoat being able to drain out the small holes beneath the domes during the finishing process.
-  - When done editing supports, switch back to the object editing screen.
-  - Save the slicer project file with the same name as the thing you imported.
-  - Press "Slice" and wait for it to process.
-     - Chitubox will prompt you for your exposure time settings. Change these as needed based on your printer and resin. (Other slicers will have different methods for editing the exposure times.)
-       - I personally set "Exposure time(s)" to 4 and "Bottom Exposure time(s)" to 20, but your printer and resin may differ. I also had to double my exposure time for the clear resin.
-  - Press "Save" in the slicing screen, it creates a ".pm3" file for the printer which you put on your USB stick and take to the printer.
-  - Delete the STL file of the color group you just sliced. Reasons: The files can be very large (Red/Silver in particular), you don't need the STL files any more, and you can regenerate STLs from the .blend file whenever you want. Also, most importantly, on MacOS, large STL files cause a bug in the operating system which cause the background process SceneKitQLThumbnailExtension to consume all of the computer's CPU cycles, slow down all your programs, and make the computer run hot.
+  - When done editing supports, save the slicer project file with the same name as the thing you imported.
+  - Go into your slicer's final slicing screen.
+     - Chitubox will prompt you for your exposure time settings at this point. Other slicers may have different methods for editing the exposure settings. Change the settings as needed, based on your printer and resin. 
+       - I personally set my exposure time to 4 and my bottom-layer exposure time to 20, but your printer and resin may differ. I also had needed to double my exposure time for printing clear resin.
+  - Press the final save or commit button in your slicer to generate the ".pm3" file for the printer.
+  - Repeat the process of exporting and slicing, for each color group of parts.
 
 
 Printing:
@@ -154,12 +157,12 @@ Printing:
 
 Copy the .pm3 files to a USB stick, and print them on your resin printer.
 
-- Print each of the color groups, in the appropriate resin colors if you have them. Best results will be obtained if you prime and paint the parts, so printing in specific resin colors is not required except for the clear resin parts. 
-- Rinse/dry/cure the parts.
+- Print each of the color groups. Best results will be obtained if you prime and paint the parts, so printing in specific resin colors is not required except for the clear resin parts.
 - Leave the parts on the supports to make them easy to paint.
-- Clear resin tips:
+- Rinse/dry/cure the parts while still on the supports.
+- Clear resin printing tips:
   - Working with clear resin is tricky, do some web searches to find lots of tips. I had some success with this strategy (though still not perfect):
-    - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure times from 4 to 8 seconds).
+    - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure time from 4 to 8 seconds, but your printer and resin may vary).
     - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time.
     - I found that I could get a reasonably nice crystal clear finish if I didn't rinse the clear domes, just kept them goopy with resin and went straight to curing. If you try to do this, you'll need to use a paper towel to dry-dab away the goopy resin on the edges of the "bowls" where they'll join each other, so that the crisp edges survive the curing process, and the two halves can join nicely.
 
@@ -167,7 +170,7 @@ Copy the .pm3 files to a USB stick, and print them on your resin printer.
 Painting:
 ---------
 
-Prime and paint the parts while they are still on the supports so that they are easier to handle.
+Prime and paint the parts while they are still on the supports, so that they are easier to handle.
 
 Paint colors that I used (you can substitute all but the first two):
 
@@ -193,8 +196,7 @@ Painting:
   - White:
     - Gloss white paint is hard to get an even coat. I had better luck using flat white primer followed by gloss clearcoat.
   - Black:
-    - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam.
-    - Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
+    - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam. Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
     - Paint the six trains gloss black.
   - Gloss clearcoat the clear resin parts.
 
@@ -206,11 +208,11 @@ Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep t
 
 In some cases it may be easier to leave larger parts on the supports while attaching smaller parts to them. For example, leaving the face section on the supports while attaching the beak, or leaving the engine block on the supports while attaching the engine pipes. 
 
-If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you sliced the parts, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary.
+If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you sliced the parts, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
 
 For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
 
-In some cases it may produce better results if you scrape away the paint where the parts attach to each other.
+In some cases it may produce better results if you scrape away the paint where the parts attach to each other. Though the model has been designed so that this should only be minimally needed.
 
 Hoverskirt:
 
@@ -308,14 +310,9 @@ We're going up a spring size, from 6mm to 7mm. Make sure that you get the correc
 - 7mm is about 116.67% of 6mm.
 
 Trains:
-  - Wider
-  - Non-circularness of circular features must be corrected.
-  - Make the train edges have a "lip" thickness so that they print reliably out to their edges.
   - Make them blobby like they were vacu-formed, rather than crisp (possibly just apply a subdivision modifier to smooth them).
 
 Print, paint, and assemble all parts again, after several major redesigns and changes.
-
-Try the anti-aliasing feature in C7hitubox when reprinting.
 
 If assembly went OK, then delete the "backup" objects from the blender file.
 
