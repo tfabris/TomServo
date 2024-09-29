@@ -275,15 +275,20 @@ Arms:
     - Make sure the hands are rotated into the correct orientation relative to the shoulders.
 
   | ![Spring on Shoulder](Photos/Printing%20and%20Assembly%20-%20Spring%20on%20Shoulder.jpg) |
-  | ------------------------------------------------------------------------------|
-  
+  | -----------------------------------------------------------------------------------------|
+
   - Depending on the springs, they might be on there firmly enough so that they don't need glue. If not, reinforce with glue.
-  - Glue Shoulder assemblies to the barrel top sides at 90 degrees from the engine block. Make sure the hands are in the correct orientation before gluing.
+  - Glue Shoulder assemblies to the barrel top sides at 90 degrees from the engine block. There are two pegs on the barrel shoulders which should fit into two holes on the shoulder pauldrons. Make sure the hands are in the correct orientation before gluing.
 
 Face:
 
   - If the face is still on the supports while assembling the beak, remove any inner supports from the inside of the face section before assembling the beak parts.
   - Slide the lower beak into the face, sliding its two pegs into the slots from above. You will need to angle it as you insert it, so that it gets around the interior geometry of the face assembly. Once it is in place, do not glue it, leave it poseable.
+
+  | ![Lower Beak Installation](Photos/Printing%20and%20Assembly%20-%20Lower%20Beak%20Installation.jpg) | ![Upper Jaw Arch](Photos/Printing%20and%20Assembly%20-%Upper%20Jaw%20Arch.jpg) |
+  | ------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+
+
   - Glue the upper beak to the upper jaw arch, inserting from the back side. Ensure that it is glued (from the back) at both at the top and at the bottom corners where the arch goes down the sides of the beak. This is to ensure that it doesn't twist or rotate in relation to the arch as you assemble the rest of the face. Make sure the arch is straight on the beak and then let the glue dry before the next step.
   - After the glue is dry on the upper beak and arch assembly, then slide the upper jaw arch into the slot in the face from above until it is in the correct place in relation to the lower beak. Make its top edge parallel with top edge of the face. Glue it in place from behind and ensure you don't get glue on the lower beak.
   - Ensure that you can still open and close the lower beak.
