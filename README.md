@@ -38,6 +38,8 @@ Reference Material:
     - https://mst3k.fandom.com/wiki/Tom_Servo?file=TomServo.jpg 
     - https://forums.mst3k.com/t/bot-building-servo/21369
     - https://propstoreauction.com/lot-details/index/catalog/386/lot/126337
+  - The MST3K channel on YouTube:
+    - https://www.youtube.com/@mst3k
   - I have also placed some reference photos in this archive.
 
 
