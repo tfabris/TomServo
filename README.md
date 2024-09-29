@@ -2,6 +2,8 @@ Tom Servo - Resin Print Model
 =============================
 &copy; 2024 by Tony Fabris
 
+![Tom Main](Photos/Tom%20Main.jpg)
+
 A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet.
 
 Required hardware: A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com/
