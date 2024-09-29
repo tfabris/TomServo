@@ -186,7 +186,7 @@ Paint colors that I used:
   - Testors 1525 Red Metallic Flake bottle paint.
   - Rust-Oleum 2X Ultra Cover Paint+Primer, Metallic Aluminum spray paint.
   - Rust-Oleum 2X Ultra Cover, Flat White Primer spray paint.
-  - Krylon Triple-Thick Crystal Clear Glaze 0500 spray paint.
+  - Krylon Triple-Thick Crystal Clear Glaze 0500 spray paint. Or find a similar one with UV resistance in its formula.
   - Testors 1149 Flat Black bottle paint.
   - Testors 1147 Gloss Black bottle paint.
 
@@ -203,7 +203,7 @@ Painting:
       - The Testors red flake is tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
       - After dry, remove the top hat from the supports, and hand-paint its inner side, which is visible through Tom's clear head.
   - Inside of Tom's mouth:
-    - Inner section of Tom's lower beak should be hand-painted flat black. Thinning the paint might help with getting it to flow smoothly into the indentation in the lower beak without getting it on the edges.
+    - Inner section of Tom's lower beak should be hand-painted flat black. Thinning the paint might help with getting it to flow smoothly into the indentation without getting it on the edges.
     - Edge of lower beak and inside of upper beak remain silver.
 
   | ![Hand painting the lower beak](Photos/Printing%20and%20Assembly%20-%20Lower%20Beak%20Hand%20Painting.jpg) | 
@@ -218,7 +218,11 @@ Painting:
   - Black:
     - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam pipe insulation. Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
     - Paint the six trains gloss black.
-  - Gloss clearcoat the clear resin parts.
+
+  - Clear:
+    - Gloss clearcoat the clear resin parts.
+    - If you want to prevent long-term yellowing of the clear resin, then use a gloss clearcoat product which contains UV resistance. The one that I'm using doesn't say anything on its label about UV resistance, I'm using it merely because it gives a crystal clear finish. I should use a different one.
+    - Immediately after applying the gloss clearcoat, while it is still wet, fold a paper towel and press it atop the circular edges where the two halves of the domes meet. This will keep the lip clean so that the two halves still fit together snugly.
 
 
 Assembly:
@@ -244,7 +248,7 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
 Hoverskirt:
 
   - Glue six trains to hoverskirt.
-  - Glue Hoverskirt to skirt rim ring.
+  - Glue hoverskirt to skirt rim ring, make sure that you are gluing it to the 45-degree angled cut on the top inner side of the ring, which should match the 45-degree angled cut at the bottom edge of the hoverskirt. The "support dots" on both the ring and the hoverskirt should be facing down. Take care to center the hoverskirt carefully, and get it to fully seat into place all the way around the ring. You might need to do some sanding or scraping of the bottom edge of the hoverskirt, if the printing resin became blobby where the supports attached. My technique was to make sure the bottom edge of the hoverskirt was sanded smooth (taking care not to damage the paint job on the visible part of the hoverskirt), test fit it in place, and make sure it is centered and fully seated all around the edge. Once it's seated in place, hold it firmly there with one hand, while using the other hand to glue it in place from the **inside**. Keep holding until the glue sets.
 
 Barrel:
 
@@ -357,6 +361,10 @@ Differences in Tom's appearance:
 
 To Do:
 ------
+
+Domes:
+- Top edges need to be at the exact same level
+
 
 Shoulders: 
 - Enlarge and deepen the peg holes. Make them go as deep as possible. They tend to get filled in with resin despite rinsing well.
