@@ -223,6 +223,7 @@ If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-
 - Engine pipes: Two pegs each, on the back side.
 - Barrel: Two pegs protrude from each shoulder.
 - Trains: Two pegs on the bottom of each train.
+- Lower beak: Two pegs, one on each side, which are the hinges it rotates upon.
 
 For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
 
@@ -235,10 +236,10 @@ Hoverskirt:
 
 Barrel:
 
+  - It may be useful to leave the barrel on the supports for most of the assembly.
   - Glue two Engine Pipes to engine block.
     - Note: The pipes have crenellations (rectangular bumps) on their outer side edges, which line up with the similar shapes on the sides of the engine block. Make sure to orient the pipes so that these features line up correctly.
   - Glue Engine block to barrel front.
-  - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the same axis as the engine block.
 
 Arms:
 
@@ -257,20 +258,24 @@ Arms:
 Face:
 
   - If the face is still on the supports while assembling the beak, remove any inner supports from the inside of the face section before assembling the beak parts.
-  - Slide the lower beak into the face, sliding its pins into the slots from above. You will need to angle it as you insert it, so that it gets around the interior geometry of the face assembly. Once it is in place, do not glue it, leave it poseable.
-  - Glue the upper beak to the upper jaw arch, inserting from the back side.
-  - Slide the upper jaw arch into the slot in the face from above, glue in place above the lower beak. Make its top edge parallel with top edge of the face. Glue it in place from behind and ensure you don't get glue on the lower beak.
-  - Glue lower hat to the top of the face assembly. The lower hat is the one with the rod coming out the bottom, the rod inserts into the corresponding hole in the top center of the face assembly.
-  - Insert face assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
-
+  - Slide the lower beak into the face, sliding its two pegs into the slots from above. You will need to angle it as you insert it, so that it gets around the interior geometry of the face assembly. Once it is in place, do not glue it, leave it poseable.
+  - Glue the upper beak to the upper jaw arch, inserting from the back side. Ensure that it is glued (from the back) at both at the top and at the bottom corners where the arch goes down the sides of the beak. This is to ensure that it doesn't twist or rotate in relation to the arch as you assemble the rest of the face. Make sure the arch is straight on the beak and then let the glue dry before the next step.
+  - After the glue is dry on the upper beak and arch assembly, then slide the upper jaw arch into the slot in the face from above until it is in the correct place in relation to the lower beak. Make its top edge parallel with top edge of the face. Glue it in place from behind and ensure you don't get glue on the lower beak.
+  - Ensure that you can still open and close the lower beak.
+  
 Dome:
 
   - If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on the globe. If done very carefully, the spot where the tabs used to be will be very small, only the size of the tabs themselves, and you can position that spot at the back of the head so it's less visible.
   - Use extreme caution to not let glue cause hazing on the clear parts. Use tiniest possible amount of glue. Superglue can cause hazing on clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing.
-  - Glue lower dome section to lower hat.
-    - Note that the lower dome is the one with the shorter lip which fits into the lower hat.
+  - Glue lower dome section to the lower hat.
+    - Note that the lower dome is the one with the shorter lip which fits into the lower hat. The lower hat is the one with the rod coming out of the bottom.
   - Glue upper dome to lower dome.
   - Glue top hat on top.
+
+Final:
+  - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the same axis as the engine block.
+  - Insert face assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
+  - Install the lower hat to the top of the face assembly. The lower hat is the one with the rod coming out of the bottom, the rod inserts into the corresponding hole in the top center of the face assembly. This might need to be glued, or you may choose to not glue it, depending on how tightly it fits into position after painting.
 
 
 Notes:
