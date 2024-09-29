@@ -70,16 +70,16 @@ Keep the parts in their arranged positions, in the blender file, when you export
     - Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
     - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
-  - Make sure the realtime viewport display of the modifiers on the "Train" objects and the "Barrel" object are enabled, so that they print with the correct textures.
-    - Select each of these objects in turn and perform the following steps on them. They must be selected one at a time, you cannot do this with a group-select:
+  - Make sure the realtime viewport display of the modifiers on the "Train" objects and the "Barrel" object are enabled, so that they print with the correct surface textures.
+    - Select each of these objects in turn and perform the following steps on them. They must be selected one at a time (multi-select doesn't work for these steps):
       - Train 1 through Train 6
       - Barrel
-    - Object should have an orange outline.
+    - Select a single one of those objects. Object should have an orange outline.
     - There should be either one modifier or two modifiers on the object (Subdivision and/or Displace), seen in the "Modifiers" panel, lower right hand panel in the UI; press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
     - Examine the "Realtime" button for each of the modifiers. The button is the third of four icons next to the modifier name. The button icon looks like a tiny LCD screen on the modifier panel.
       - If the icon is gray, it means the realtime display for that modifier is turned off.
       - If the icon is lit up blue and white, the realtime display for that modifier is turned on.
-      - Make sure the realtime display is turned on for the Subdivision and Displace modifiers on the Barrel object, and for the Subdivision modifier on the Train objects.
+      - Make sure the realtime display is turned on for the Subdivision and Displace modifiers on the Barrel object, and for the Subdivision modifier on all six of the Train objects.
     - Do not "APPLY" these modifiers or else everything will run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
     - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these modifiers. Don't forget to turn them back on before exporting.
   - In the main viewport window, group-select the objects you want to print.
