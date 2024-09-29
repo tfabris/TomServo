@@ -72,7 +72,7 @@ Head globe (optional):
 Exporting Models From Blender for Printing:
 -------------------------------------------
 
-Instructions below are for Blender version 3.6, later versions might work a little differently.
+Instructions below are for Blender version 3.6. If you are running a later version, it might work a little differently. I haven't tried this on Blender 4.2 yet.
 
 Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions.
 
