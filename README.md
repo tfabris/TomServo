@@ -77,7 +77,7 @@ Instructions below are for Blender version 3.6, later versions might work a litt
 Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions.
 
   - Open the "Tom.blend" file in Blender.
-    - Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.
+    - (Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.)
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
     - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
   - Make sure the realtime viewport display of the modifiers on the "Train" objects and the "Barrel" object are enabled, so that they print with the correct surface textures.
