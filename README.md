@@ -54,7 +54,7 @@ Arm springs:
   - Spring size: Approx 7mm (0.028in) wide, 25mm or longer length (will be cut to length).
   - Example:
     - https://www.amazon.com/dp/B0CXJMNDDL
-    - The linked example springs are too heavy-duty, and are hard to attach. Find lighter-weight springs than those if possible. Send me a link if you find some.
+    - Those example springs are too heavy-duty, and are hard to attach. Find lighter-weight springs than those, if possible. Send me a link if you find some.
 
 Head globe (optional):
 
@@ -63,6 +63,10 @@ Head globe (optional):
   - Examples:
     - https://www.amazon.com/gp/product/B07QH5QVCW
     - https://www.amazon.com/gp/product/B0776NHB88
+
+  | ![Baubles](Photos/Printing%20and%20Assembly%20-%20Baubles.jpg) | vs. | ![Resin Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Resin%20Domes%20Trimmed.jpg) |
+  | ----------------------------------------------------------------------|-------|-----------------------------------------------------------------|
+  | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) | vs. | ![Resin Head](Photos/Printing%20and%20Assembly%20-%20Resin%20Head.jpg) |
 
 
 Exporting Models From Blender for Printing:
