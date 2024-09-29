@@ -90,7 +90,7 @@ Keep the parts in their arranged positions, in the blender file, when you export
       - If the icon is gray, it means the realtime display for that modifier is turned off.
       - If the icon is lit up blue and white, the realtime display for that modifier is turned on.
       - Make sure the realtime display is turned on for the Subdivision and Displace modifiers on the Barrel object, and for the Subdivision modifier on all six of the Train objects.
-    - Do not "APPLY" these modifiers or else everything will run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
+    - Do not "Apply" these modifiers, or else everything in this file will permanently run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
     - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these modifiers. Don't forget to turn them back on before exporting.
   - In the main viewport window, group-select the objects you want to print.
     - You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
