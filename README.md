@@ -198,7 +198,6 @@ Painting:
 
   | ![Silver Part Set](Photos/Printing%20and%20Assembly%20-%20Silver.jpg) | ![Red Part Set](Photos/Printing%20and%20Assembly%20-%20Red.jpg) |
   | ----------------------------------------------------------------------|-----------------------------------------------------------------|
-  | Silver base coat is painted first.                                    | Four silver parts are removed, then Red is painted.             |
 
   - Red:
       - The Testors red flake is tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
