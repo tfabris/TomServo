@@ -8,20 +8,20 @@ Required hardware: A 3D resin printer and a wash/cure station. I'm using an Anyc
 
 Required software:
 
-  - Blender (I'm using v3.6 at the moment): https://www.blender.org/
-  - A slicer program. I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
+  - Blender - I'm using v3.6 at the moment): https://www.blender.org/
+  - A slicer program - I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
 
 
 Where These Designs Originated:
 -------------------------------
 
-Most parts were originally from a set of 3D models by @Pack_512 found on the Printables.com web site. These were originally intended to print full size puppet parts on a PLA printer. However they did not include every part, and the parts they did include needed some modification for the resin printing. Originals were found at:
+Most parts were originally from a set of 3D models by @Pack_512 found on the Printables.com web site. These were originally intended to print full size puppet parts on a PLA printer. However they did not include every part, and the parts they did include needed significant modification for resin printing a small figurine. Originals were found at:
 
   - https://www.printables.com/en/model/98987/files
 
 The hoverskirt, doll hands, and skirt rim were created from scratch by me, Tony Fabris. 
 
-I have made many modifications to @Pack_512's parts to make them more screen-accurate, easier to resin-print, paint, and assemble into a small model. 
+I have made many modifications to @Pack_512's parts to make them more screen-accurate, easier to resin-print, and easier to paint and assemble into a model. 
 
 I added barrel surface detail to the @Pack_512 barrel part, done as a Displacement Map modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". Source layers for the PNG are found in "BarrelWoodgrain.xcf" is also included for convenience, and can be opened in GIMP if needed.
 
