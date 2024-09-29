@@ -251,6 +251,10 @@ Barrel:
   - It may be useful to leave the barrel on the supports for most of the assembly.
   - Glue two Engine Pipes to engine block.
     - Note: The pipes have crenellations (rectangular bumps) on their outer side edges, which line up with the similar shapes on the sides of the engine block. Make sure to orient the pipes so that these features line up correctly.
+
+  | ![Engine Pipes](Photos/Printing%20and%20Assembly%20-%20Engine%20Pipes.jpg) |
+  | ---------------------------------------------------------------------------|
+
   - Glue Engine block to barrel front.
 
 Arms:
