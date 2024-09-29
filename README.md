@@ -195,7 +195,7 @@ Painting:
   - Red and Silver parts are first spray-painted silver together:
     - Silver is an undercoat for the red, important for a screen-accurate shine. I used "metallic aluminum" color.
     - After drying, remove only the silver parts from the supports (2 beak parts and 2 engine pipe parts) and set them aside. Leave the rest on the supports, to paint the red coat atop the silver.
-    | ![Silver Part Set](Photos/Printing%20and%20Assembly%20-%20Silver.jpg) | ![Red Part Set](Photos/Printing%20and%20Assembly%20-%Red.jpg) |
+    | ![Silver Part Set](Photos/Printing%20and%20Assembly%20-%20Silver.jpg) | ![Red Part Set](Photos/Printing%20and%20Assembly%20-%20Red.jpg) |
     | -------------------- | --------------------
   - Red:
       - The Testors red flake is tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
