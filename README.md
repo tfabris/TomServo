@@ -70,15 +70,18 @@ Keep the parts in their arranged positions, in the blender file, when you export
     - Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
     - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
-  - Make sure the realtime viewport display of the modifiers on the "Barrel" object are enabled, so that it prints with the correct faux wood grain texture.
-    - Select the "Barrel" object, it should have an orange outline.
-    - There should be two modifiers on the object (Subdivision and Displace), seen in the "Modifiers" panel, lower right hand panel in the UI, press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
-    - Examine the "Realtime" button for each of the two modifiers. The button is the third of four icons next to the modifier name. The button icon looks like a tiny LCD screen on the modifier panel.
+  - Make sure the realtime viewport display of the modifiers on the "Train" objects and the "Barrel" object are enabled, so that they print with the correct textures.
+    - Select each of these objects in turn and perform the following steps on them. They must be selected one at a time, you cannot do this with a group-select:
+      - Train 1 through Train 6
+      - Barrel
+    - Object should have an orange outline.
+    - There should be either one modifier or two modifiers on the object (Subdivision and/or Displace), seen in the "Modifiers" panel, lower right hand panel in the UI; press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
+    - Examine the "Realtime" button for each of the modifiers. The button is the third of four icons next to the modifier name. The button icon looks like a tiny LCD screen on the modifier panel.
       - If the icon is gray, it means the realtime display for that modifier is turned off.
       - If the icon is lit up blue and white, the realtime display for that modifier is turned on.
-      - Make sure the realtime display is turned on for the Subdivision and Displace modifiers.
+      - Make sure the realtime display is turned on for the Subdivision and Displace modifiers on the Barrel object, and for the Subdivision modifier on the Train objects.
     - Do not "APPLY" these modifiers or else everything will run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
-    - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these two modifiers. Don't forget to turn them back on before exporting.
+    - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these modifiers. Don't forget to turn them back on before exporting.
   - In the main viewport window, group-select the objects you want to print.
     - You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
     - Select the objects arranged in each color group:
@@ -133,15 +136,15 @@ Create a new project in your slicer and then:
   - Delete the STL file you just imported. Reasons: The STL files can be very large (Red/Silver in particular), you don't need the STL file any more since you have the slicer project file, and you can regenerate STLs from the .blend file whenever you want. Most importantly, on MacOS, large STL files on the hard disk cause a bug in the operating system, detailed above.
   - Switch to the support editing screen in your slicer.
     - Select the "Light" version of the supports.
-    - Edit the "Raft" or "Base" parameters by selecting the appropriate screen in the support editor.
-    - Increase the size of the Rafts or Bases. Some slicers will give this as a percentage value, others will have you enter a specific size. Make them larger than the default. 
-    - This is to make each color group's rafts run together, so that the parts all sit together on one large raft. This makes them easier to handle and makes it possible to spray paint each color group as a single unit. Adjust this number as needed so that the rafts are big enough to overlap each other, but not so big that they exceed the print bed size.
-    - Press the appropriate button in your slicer to auto-add to add rafts and supports ("+All" in Chitubox), adjust the raft size again if needed, and press the button again if you changed the raft size.
+    - Edit the "Raft" or "Base" or "Platform" parameters by selecting the appropriate screen in the support editor.
+    - Increase the size of the Rafts/Bases/Platforms. Some slicers will give this as a percentage value, others will have you enter a specific size. Make them larger than the default.
+    - This is to make each color group's rafts run together, so that the parts all sit together on one large raft. This makes them easier to handle and makes it possible to spray paint each color group as a single unit. Adjust this number as needed, so that the rafts are big enough to overlap each other, but not so big that they exceed the print bed size.
+    - Press the appropriate button in your slicer to auto-add rafts and supports ("+All" in Chitubox), adjust the raft size again if needed, and press the button again if you changed the raft size.
     - Edit the supports (You may need to rotate the view, to view the model from the bottom, to edit the supports). Goals when editing supports:
       - Where possible, attach supports only to places which are less visible in the final model. Delete supports which will mar the finish of the visible portions of the model, but only if you can safely delete them without causing a printing problem.
       - Make sure there is enough gap space between the supports to drain out excess resin/paint/clearcoat.
       - Also make sure that the smallest parts have enough supports. Even the tiniest pieces should have at least 4-6 supports, so that the part remains stable while printing. In particular, the two sets of engine pipes in the Silver group are very small, causing the slicer to add too few supports to these objects. With too few supports, the objects tend to disconnect from the supports during printing, causing the resulting parts to be curled. Fix this by adding additional supports to tiny parts.
-      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports to the edges of the trains, causing a bunch of little support dots on the edges of the trains which become extremely visible when assembled. Rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit, just barely inside the edge.
+      - Rein in any supports which are on the outer fine edges of things which don't actually need the supports to be so far out on the edge. For example, Chitubox automatically adds many supports to the extreme edges of the trains, causing a bunch of little support dots on the edges of the trains, which become extremely visible when assembled. Rein those supports in, so that they don't make little dots on the edges, or else you'll need to be sanding those dots off yourself. Obviously don't move them so far that you ruin the print, just move them inward a tiny bit, just barely inside the edge.
   - For the clear parts (the head domes):
     - They are deliberately oriented so that the small ends of each bowl are close to the raft. The large ends of each bowl are free-floating in the air. This is done to print the larger circle edges clean (no supports) where the two halves of the dome meet each other, and to make it easy to do any post-print treatment if needed.
     - Make sure that the only supports for the clear domes are the ones on the bottom-most edges, the inner smaller circles. Delete any supports which touch the smooth sections of the domes. 
@@ -214,6 +217,12 @@ Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep t
 In some cases, it may be easier to leave larger parts on the supports while attaching smaller parts to them.
 
 If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
+
+**CAUTION:** Some parts have tiny positioning pegs. Be careful not to confuse these with printing supports. Make sure not to trim away the pegs when you are cleaning up the parts:
+- Engine block: Three pegs on the back side, one near the top edge and two down below.
+- Engine pipes: Two pegs each, on the back side.
+- Barrel: Two pegs protrude from each shoulder.
+- Trains: Two pegs on the bottom of each train.
 
 For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
 
@@ -314,15 +323,11 @@ Differences in Tom's appearance:
 To Do:
 ------
 
-We're going up a spring size, from 6mm to 7mm. Make sure that you get the correct size when modeling the new shoulder pieces.
-- 6mm is about 85.7%   of 7mm. 
-- 7mm is about 116.67% of 6mm.
-
 Shoulders: 
 - Enlarge and deepen the peg holes. Make them go as deep as possible. They tend to get filled in with resin despite rinsing well.
 
-Trains:
-  - Make them blobby like they were vacu-formed.
+Hoverskirt:
+- Carve a flat bottom side for the supports, so that the 45 degree fitting surface doesn't curve with the printing process.
 
 If assembly went OK, then delete the "backup" objects from the blender file.
 
