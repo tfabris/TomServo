@@ -274,7 +274,9 @@ Arms:
     - Leaving the shoulder sections on the supports makes it easier to hold the shoulders while connecting the springs.
     - Make sure the hands are rotated into the correct orientation relative to the shoulders.
 
-
+  | ![Spring on Shoulder](Photos/Printing%20and%20Assembly%20-%20Spring%20on%20Shoulder.jpg) |
+  | ------------------------------------------------------------------------------|
+  
   - Depending on the springs, they might be on there firmly enough so that they don't need glue. If not, reinforce with glue.
   - Glue Shoulder assemblies to the barrel top sides at 90 degrees from the engine block. Make sure the hands are in the correct orientation before gluing.
 
