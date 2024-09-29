@@ -203,10 +203,18 @@ Painting:
       - The Testors red flake is tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
       - After dry, remove the top hat from the supports, and hand-paint its inner side, which is visible through Tom's clear head.
   - Inside of Tom's mouth:
-    - Inner section of Tom's lower beak should be hand-painted flat black.
+    - Inner section of Tom's lower beak should be hand-painted flat black. Thinning the paint might help with getting it to flow smoothly into the indentation in the lower beak without getting it on the edges.
     - Edge of lower beak and inside of upper beak remain silver.
+
+  | ![Hand painting the lower beak](Photos/Printing%20and%20Assembly%20-%20Lower%20Beak%20Hand%20Painting.jpg) | 
+  | -----------------------------------------------------------------------------------------------------------|
+
   - White:
     - Gloss white paint is hard to get an even coat. I had better luck using flat white primer followed by gloss clearcoat.
+
+  | ![White Part Set](Photos/Printing%20and%20Assembly%20-%20White.jpg) |
+  | --------------------------------------------------------------------|
+
   - Black:
     - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam pipe insulation. Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
     - Paint the six trains gloss black.
