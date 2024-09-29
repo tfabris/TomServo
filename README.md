@@ -4,7 +4,7 @@ Tom Servo - Resin Print Model
 
 ![Tom Main](Photos/Tom%20Main.jpg)
 
-A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5$\frac{8}{1}$ inches) tall.
+A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5 $\frac{8}{1}$ inches) tall.
 
 Required hardware: A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com/
 
