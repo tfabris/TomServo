@@ -285,7 +285,7 @@ Face:
   - If the face is still on the supports while assembling the beak, remove any inner supports from the inside of the face section before assembling the beak parts.
   - Slide the lower beak into the face, sliding its two pegs into the slots from above. You will need to angle it as you insert it, so that it gets around the interior geometry of the face assembly. Once it is in place, do not glue it, leave it poseable.
 
-  | ![Lower Beak Installation](Photos/Printing%20and%20Assembly%20-%20Lower%20Beak%20Installation.jpg) | ![Upper Jaw Arch](Photos/Printing%20and%20Assembly%20-%Upper%20Jaw%20Arch.jpg) |
+  | ![Lower Beak Installation](Photos/Printing%20and%20Assembly%20-%20Lower%20Beak%20Installation.jpg) | ![Upper Jaw Arch](Photos/Printing%20and%20Assembly%20-%20Upper%20Jaw%20Arch.jpg) |
   | ------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 
 
