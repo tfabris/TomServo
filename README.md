@@ -228,7 +228,9 @@ Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep t
 
 In some cases, it may be easier to leave larger parts on the supports while attaching smaller parts to them.
 
-If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
+If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other. Always test-fit parts together before applying any glue. It's no fun to apply glue only to discover you still need to do some trimming.
+
+In some cases, it may produce better results if you scrape away the paint where the parts attach to each other. Though the model has been designed so that this should only be minimally needed.
 
 **CAUTION:** Some parts have tiny positioning pegs. Be careful not to confuse these with printing supports. Make sure not to trim away the pegs when you are cleaning up the parts:
 - Engine block: Three pegs on the back side, one near the top edge and two down below.
@@ -238,8 +240,6 @@ If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-
 - Lower beak: Two pegs, one on each side, which are the hinges it rotates upon.
 
 For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
-
-In some cases, it may produce better results if you scrape away the paint where the parts attach to each other. Though the model has been designed so that this should only be minimally needed.
 
 Hoverskirt:
 
@@ -255,7 +255,7 @@ Barrel:
   | ![Engine Pipes](Photos/Printing%20and%20Assembly%20-%20Engine%20Pipes.jpg) |
   | ---------------------------------------------------------------------------|
 
-  - Glue Engine block to barrel front.
+  - Glue Engine block to barrel front. There are three tiny pegs on the engine block and three tiny holes on the front of the barrel. If you can't get the pegs into the holes, check to see if any "support dots" need to be trimmed away from the back side of the engine block.
 
 Arms:
 
