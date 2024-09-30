@@ -24,16 +24,15 @@ A project for resin-printing a small model of a character from Mystery Science T
 Where These Meshes Originated:
 ------------------------------
 
-Most parts were originally from a set of 3D models by @Pack_512 found on the Printables.com web site. These were originally intended to print full size puppet parts on a PLA printer. However they did not include every part, and the parts they did include needed significant modification for resin printing a small figurine. Originals were found at:
+Some of the parts were originally from a set of 3D models by @Pack_512, found on the Printables.com web site:
 
   - https://www.printables.com/en/model/98987/files
 
+These were originally intended to print full size puppet parts, on a PLA filament printer. However that collection doesn't include every part of Tom, and, those parts needed significant modification before they could be resin printed at a small size. You can't simply shrink them down, trust me, I tried that first. Certain areas became too thin and just crumbled. Some parts needed redesigning so that they could assemble with glue instead of screws, and I had to modify most of the places where the parts dovetail together so that they could fit at the smaller size. I modified each of the parts to make them easier to resin-print, paint, and assemble into a model, as well as changing some of the parts to be a little more screen-accurate.
+
+I added barrel surface detail to the @Pack_512 barrel part: I created the external texture file "BarrelWoodgrain.png", made a UV map for it, and added the Displacement Map modifier to the barrel in the Blender file. The original layers for the texture file are found in "BarrelWoodgrain.xcf", which is also included for convenience, and can be edited in GIMP if needed.
+
 The hoverskirt, doll hands, and skirt rim were modeled from scratch by me, Tony Fabris. 
-
-I have made many modifications to @Pack_512's parts to make them more screen-accurate, easier to resin-print, and easier to paint and assemble into a model. 
-
-I added barrel surface detail to the @Pack_512 barrel part, done as a Displacement Map modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". The original layers for the PNG are found in "BarrelWoodgrain.xcf", which is also included for convenience, and can be opened in GIMP if needed.
-
 
 #### Reference Materials:
 
@@ -63,7 +62,7 @@ You'll need to source some external parts to complete this model.
 
 #### Head globe (optional):
 
-  - You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is also sized to fit a commonly-available plastic globe "fillable Christmas ornament":
+  - You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is also sized to fit a commonly-available plastic globe "fillable Christmas ornament" bauble:
   - Globe size: Approx 3cm (1.18in) diameter.
   - Examples:
     - https://www.amazon.com/gp/product/B07QH5QVCW
@@ -114,7 +113,7 @@ You will be making multiple selections to export separate groups of objects, to 
 
   - In the main viewport window, group-select the objects arranged in each color group, and export each group after selecting:
       - Clear objects:
-        - Dome Bottom/Top
+        - Dome Bottom/Top 
       - White objects:
         - Hand L/R
         - Hoverskirt
@@ -141,7 +140,7 @@ You will be making multiple selections to export separate groups of objects, to 
     | -----------------------------|
 
   - Export each group as their own STL files:
-    - Clear.stl
+    - Clear.stl (if you chose to use resin for the head dome parts)
     - White.stl
     - Black.stl
     - Red Silver.stl
@@ -355,22 +354,24 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
   
 #### Dome:
 
-  - If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on each of the globe halves. If done very carefully, the spots where the tabs used to be will be very small, only the size of the tabs themselves, and you can position those spots at the back of the head so they're less visible.
+  - If you externally sourced the 3cm clear baubles, then use a Dremel tool to very carefully grind away the hanging tabs on each of the bauble halves. If done very carefully, the spots where the tabs used to be will be very small, only the size of the tabs themselves, and you can position those spots at the back of the head so they're less visible.
 
   | ![Bauble Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Bauble%20Domes%20Trimmed.jpg) |
   | ---------------------------------------------------------------------------------------------|
 
-  - Use extreme caution to not let glue cause hazing on the clear parts. Superglue will definitely haze clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing. Canopy glue dries clear, is easy to clean up, doesn't stain the clear plastic, and takes a long time to dry, allowing for repositioning.
-  - If you sourced the 3cm globe externally, there is no "guide" for gluing the hat pieces to the domes. Use extreme care to make them straight and centered. Carefully double check the positioning before the glue dries (this is where the canopy glue really helps). This might be made easier if you temporarily assemble the head and body onto the hoverskirt, so that everything is stable and easy to reach.
+  - Use extreme caution to not let glue cause hazing on the clear parts. Superglue will definitely haze clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing. I'm using Pacer "Formula 560" Canopy Glue. It dries clear, is easy to clean up, doesn't stain the clear plastic, and takes a long time to dry, allowing for easy repositioning.
+  - If using the resin-printed domes, glue the upper dome to the lower dome. If using the clear baubles instead, their two halves should friction-fit without gluing.
+  - Glue the lower dome section to the lower hat.
+    - If using the resin-printed domes, the lower dome is the one with the shorter lip which fits into the lower hat.
+    - The lower hat is the one with the rod coming out of the bottom.
+  - Glue the top hat on top.
+  - If using the clear baubles, there is no "guide" for gluing the hat pieces to the domes. Use extreme care to get everything straight and centered. Carefully double check the positioning before the glue dries. I did this by looking at the the assembled hats and domes from the side and rotating them, making sure the hats seemed parallel to the center seam of the dome from all directions. This is where the canopy glue really helps, since it takes a long time to dry, and easily cleans up with a damp Q-tip if you slip or make a mistake.
+  - Recommend using nitrile gloves during the process of gluing the upper and lower hat onto the head dome. Without gloves, my fingertip kept naturally adhering to the glossy red paint while I was trying to position the hat and hold it in place. I'd get it juuuuust right, but then when I pulled away my finger, the hat would move. As soon as I put a nitrile glove on that hand, the problem stopped happening and I was able to position it much more easily.
 
     | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) |
     | -------------------------------------------------------------------------|
 
-  - Glue lower dome section to the lower hat.
-    - If using the clear resin parts, the lower dome is the one with the shorter lip which fits into the lower hat.
-    - The lower hat is the one with the rod coming out of the bottom.
-  - If using the clear resin parts, glue upper dome to lower dome. If using the externally-sourced 3cm globe, you might not need to to glue the two halves together since they friction-fit quite well already.
-  - Glue the top hat on top.
+  
 
 #### Finishing:
 
