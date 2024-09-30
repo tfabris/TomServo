@@ -14,6 +14,7 @@ A project for resin-printing a small model of a character from Mystery Science T
 #### Required hardware:
   
   - A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com
+  - The parts are arranged to fit on my printer's 7.6-inch screen. If yours is smaller, you'll need to print your parts in smaller batches.
 
 #### Required software:
 
