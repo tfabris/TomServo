@@ -355,9 +355,10 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
 #### Dome:
 
   - If you externally sourced the 3cm clear baubles, then use a Dremel tool to very carefully grind away the hanging tabs on each of the bauble halves. If done very carefully, the spots where the tabs used to be will be very small, only the size of the tabs themselves, and you can position those spots at the back of the head so they're less visible.
+  - If you are using the resin-printed domes, you might need need to carefully trim and sand the lips which fit into the hat pieces. Make sure that they fit in gently; if you have to force them into the hats, you'll crack the hats. Trim and sand the lips as needed until they fit gently.
 
-  | ![Bauble Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Bauble%20Domes%20Trimmed.jpg) |
-  | ---------------------------------------------------------------------------------------------|
+  | ![Bauble Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Bauble%20Domes%20Trimmed.jpg) | ![Resin Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Resin%20Domes%20Trimmed.jpg) |
+  | ------------------------------------------------------------|------------------------------------------------------------|
 
   - Use extreme caution to not let glue cause hazing on the clear parts. Superglue will definitely haze clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing. I'm using Pacer "Formula 560" Canopy Glue. It dries clear, is easy to clean up, doesn't stain the clear plastic, and takes a long time to dry, allowing for easy repositioning.
   - If using the resin-printed domes, glue the upper dome to the lower dome. If using the clear baubles instead, their two halves should friction-fit without gluing.
