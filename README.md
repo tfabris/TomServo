@@ -123,7 +123,7 @@ You will be making multiple selections to export separate groups of objects, to 
       - Black objects:
         - Skirt rim
         - Train 1-6
-       - Red and Silver objects together:
+      - Red and Silver objects together:
         - Barrel (and its child, Barrel Crossbars, keep these together as if they were one object)
         - Engine block
         - Face
