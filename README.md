@@ -332,7 +332,7 @@ Face:
   
 Dome:
 
-  - If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on the globe. If done very carefully, the spot where the tabs used to be will be very small, only the size of the tabs themselves, and you can position that spot at the back of the head so it's less visible.
+  - If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on each of the globe halves. If done very carefully, the spots where the tabs used to be will be very small, only the size of the tabs themselves, and you can position those spots at the back of the head so they're less visible.
 
   | ![Bauble Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Bauble%20Domes%20Trimmed.jpg) |
   | -------------------------------------------------------------------------------------------|
