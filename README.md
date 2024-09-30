@@ -6,11 +6,11 @@ Tom Servo - Resin Print Model
 
 A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm ($5 \Large\frac{1}{8}$ inches) tall.
 
-### Required hardware:
+# Required hardware:
   
   - A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com/
 
-## Required software:
+# Required software:
 
   - Blender - I'm using v3.6 at the moment): https://www.blender.org/
   - A slicer program - I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
@@ -30,7 +30,7 @@ I have made many modifications to @Pack_512's parts to make them more screen-acc
 I added barrel surface detail to the @Pack_512 barrel part, done as a Displacement Map modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". The original layers for the PNG are found in "BarrelWoodgrain.xcf", which is also included for convenience, and can be opened in GIMP if needed.
 
 
-Reference Materials:
+# Reference Materials:
 
   - Official MST3K bot building guide. I got mine from the fan club many years ago (when there was still a fan club), but here is a link to a scanned copy that someone put on dropbox:
     - https://www.dropbox.com/s/sl6pzz7m48q7dxr
@@ -48,7 +48,7 @@ External Parts:
 
 You'll need to source some external parts to complete this model.
 
-Arm springs:
+# Arm springs:
 
   - Spring type: Extension spring.
   - Spring size: Approx 7mm (0.028in) wide, 25mm or longer length (will be cut to length).
@@ -56,7 +56,7 @@ Arm springs:
     - https://www.amazon.com/dp/B0CXJMNDDL
     - Those example springs are too heavy-duty, and are hard to attach. Find springs which are more lightweight than those, if possible. Send me a link if you find some.
 
-Head globe (optional):
+# Head globe (optional):
 
   - You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is also sized to fit a commonly-available plastic globe "fillable Christmas ornament":
   - Globe size: Approx 3cm (1.18in) diameter.
@@ -76,17 +76,17 @@ Instructions below are for Blender version 3.6. If you are running a later versi
 
 Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions.
 
-Open the file:
+# Open the file:
 
   - Open the "Tom.blend" file in Blender.
     - (Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.)
 
-Ensure correct scaling: 
+# Ensure correct scaling: 
 
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
     - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
 
-Activate surface textures:
+# Activate surface textures:
 
   - Make sure the realtime viewport display of the modifiers on "Barrel" object are enabled, so that it prints with the correct surface textures.
     - Select the "Barrel" object.
@@ -102,7 +102,8 @@ Activate surface textures:
     | ![Barrel Texture](Photos/Barrel%20Texture.png) |
     | -----------------------------------------------|
 
-Export each color group:
+
+# Export each color group:
 
   You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
 
@@ -148,8 +149,7 @@ Slicing:
 
 You may use any slicer to process the files. Instructions here are for Chitubox Basic v1.9.4. If you are using another slicer, find the equivalent features. 
 
-
-Create a new project in your slicer and then:
+# Create a new project in your slicer and then:
 
   - Import one of the color group STL files that you exported.
   - Ensure the parts fit on the print bed and are centered.
@@ -182,7 +182,7 @@ Create a new project in your slicer and then:
 Printing:
 ---------
 
-Print the .pm3 files on your resin printer.
+# Print the .pm3 files on your resin printer:
 
 - Print each of the color groups. 
 - Optional: Print the white parts in white resin, the head domes in clear resin, and the remainder of the parts in black resin.
@@ -215,7 +215,7 @@ Painting:
 
 Prime and paint the parts while they are still on the supports, so that they are easier to handle. In addition to ensuring that each color group prints together on the same raft, I also like to glue the end of a popsickle stick to the bottom of each raft, so that I have a handle to hold during spray-painting.
 
-Paint colors that I used:
+# Paint colors that I used:
 
   - Testors 1629T Red Metallic Flake spray paint. (Canonical screen-accurate color.)
   - Testors 1525 Red Metallic Flake bottle paint.
@@ -225,7 +225,7 @@ Paint colors that I used:
   - Testors 1149 Flat Black bottle paint.
   - Testors 1147 Gloss Black bottle paint.
 
-Painting:
+# Painting:
 
   - Red and Silver parts are first spray-painted silver together:
     - Silver is an undercoat for the red, important for a screen-accurate shine. I used "metallic aluminum" color.
@@ -283,7 +283,7 @@ In some cases, it may produce better results if you scrape away the paint where 
 
 For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
 
-Hoverskirt:
+# Hoverskirt:
 
   - Glue six trains to hoverskirt.
   - Glue hoverskirt to skirt rim ring, make sure that you are gluing it to the 45-degree angled cut on the top inner side of the ring, which should match the 45-degree angled cut at the bottom edge of the hoverskirt. The "support dots" on both the ring and the hoverskirt should be facing down.
@@ -294,7 +294,7 @@ Hoverskirt:
   | ---------------------------------------------------------------------|
 
 
-Barrel:
+# Barrel:
 
   - It may be useful to leave the barrel on the supports for most of the assembly.
   - Glue two Engine Pipes to engine block.
@@ -305,7 +305,7 @@ Barrel:
 
   - Glue Engine block to barrel front. There are three tiny pegs on the engine block and three tiny holes on the front of the barrel. If you can't get the pegs into the holes, check to see if any "support dots" need to be trimmed away from the back side of the engine block.
 
-Arms:
+# Arms:
 
   - Cut the arm springs to your desired arm length based on photographic references. Cut away the curls at the ends of the springs so that they are just pure spirals with no protrusions.
     - **WARNING:** Cut spring ends are SHARP! They will stab you when you try to attach them, if you slip while attaching. Always make sure that you are pressing or twisting AWAY from your fingertips when assembling.
@@ -328,7 +328,7 @@ Arms:
   - Depending on the springs, they might be on there firmly enough so that they don't need glue. If not, reinforce with glue.
   - Glue Shoulder assemblies to the barrel top sides at 90 degrees from the engine block. There are two pegs on the barrel shoulders which should fit into two holes on the shoulder pauldrons. Make sure the hands are in the correct orientation before gluing.
 
-Face:
+# Face:
 
   - Remove all inner supports from the inside of the face section before assembling the beak parts. You may leave the face on the supports while assembling, as long as you remove the inner supports first.
   - Slide the lower beak into the face, sliding its two pegs into the slots from above. You will need to angle it as you insert it, so that it gets around the interior geometry of the face assembly. Once it is in place, do not glue it, leave it poseable.
@@ -342,7 +342,7 @@ Face:
   - After the glue is dry on the upper beak and arch assembly, then slide the upper jaw arch into the slot in the face from above until it is in the correct place in relation to the lower beak. Make its top edge parallel with the top edge of the face. Glue it in place from behind and ensure you don't get glue on the lower beak.
   - Ensure that you can still open and close the lower beak.
   
-Dome:
+# Dome:
 
   - If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on each of the globe halves. If done very carefully, the spots where the tabs used to be will be very small, only the size of the tabs themselves, and you can position those spots at the back of the head so they're less visible.
 
@@ -361,7 +361,8 @@ Dome:
   - If using the clear resin parts, glue upper dome to lower dome. If using the externally-sourced 3cm globe, you might not need to to glue the two halves together.
   - Glue the top hat on top.
 
-Finishing:
+# Finishing:
+
   - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the same axis as the engine block.
   - Insert face assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
   - Install the lower hat to the top of the face assembly. The lower hat is the one with the rod coming out of the bottom, the rod inserts into the corresponding hole in the top center of the face assembly. This might need to be glued, or you may choose to not glue it, depending on how tightly it fits into position after painting.
@@ -370,7 +371,9 @@ Finishing:
 Notes:
 ------
 
-The Tom.blend file is saved with the pieces already moved into their printing positions. To view the parts in "assembled" position:
+# Viewing parts in "assembled" position:
+
+The Tom.blend file is saved with the pieces already moved into their printing positions. You can temporarily move the parts into an "Assembled" position so that you can view what the model will look like, and to check if the parts fit.
 
   - Make sure you are in Object Mode in Blender.
   - Press A ("Select All")
@@ -381,10 +384,10 @@ The Tom.blend file is saved with the pieces already moved into their printing po
   - However the trains are still all gathered at the front position. Rotate them into their final positions around the hoverskirt at 60 degrees apart: Individually select the six trains from the object hierarchy in the Scene Collection panel, and set their Z rotations in this order: Z=0, Z=60, Z=120, Z=180, Z=240, Z=300.
   - Do not "Save" the file in this position; you'll want to keep all objects in their printing positions for the future.
 
-Returning objects to printing position:
+# Returning objects to printing position:
 
-  - Just reload the original version of the file. Don't try to do any edits in the "assembled" position.
-  - But if you get stuck because you made edits in the "assembled" position, or if you moved some parts to check the fit of an edited part, here is how to return all objects to their printing positions.
+Just reload the original version of the file. Don't try to do any edits in the "assembled" position. But if you get stuck because you made edits in the "assembled" position, or if you moved some parts to check the fit of an edited part, here is how to return all objects to their printing positions.
+
   - Press A ("Select All"), then ALT+R ("Clear Rotations") to gather all of the trains back in the same position at the front.
   - Individually select the six trains from the object hierarchy in the Scene Collection panel, and set rotation X=-52 on all six. 
   - Engine block and engine pipes, set rotation X=-90
@@ -406,7 +409,7 @@ Returning objects to printing position:
       - The clear domes should have enough space between them to smoothly clearcoat both their inside and outside without removing them from the supports.
   - Press Numpad 1 to view the scene orthographically from the front. Select each piece and press G and move each piece into a vertical position slightly above the world plane (the world plane will be the location of the print bed when printing).
 
-Differences in Tom's appearance:
+# Differences in Tom's appearance:
 
   - In early seasons, the "lower hat" piece is not part of Tom's head assembly. It was added in later seasons.
   - The trains on the hoverskirt change their appearance constantly over time. They were vacu-formed from the original train toy shape: The amount of "squish" around their edges, and where they're positioned on the hoverskirt, depend on who did the vacu-forming, where they cut the edges of the plastic, and how carefully they glued them into position.
