@@ -217,7 +217,7 @@ Printing:
 Painting:
 ---------
 
-Prime and paint the parts while they are still on the supports, so that they are easier to handle. In addition to ensuring that each color group prints together on the same raft, I also like to glue the end of a popsickle stick to the bottom of each raft, so that I have a handle to hold during spray-painting.
+Prime and paint the parts while they are still on the supports, so that they are easier to handle. In addition to ensuring that each color group prints together on the same raft, I also like to glue a popsicle stick to the bottom of each raft, so that I have a handle to hold during spray-painting.
 
 ### Paint colors that I used:
 
