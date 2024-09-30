@@ -365,7 +365,7 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
 
 ### Finishing:
 
-  - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the same axis as the engine block.
+  - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the front, exactly under the engine block.
   - Insert face assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
   - Install the lower hat to the top of the face assembly. The lower hat is the one with the rod coming out of the bottom, the rod inserts into the corresponding hole in the top center of the face assembly. This might need to be glued, or you may choose to not glue it, depending on how tightly it fits into position after painting.
 
