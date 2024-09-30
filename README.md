@@ -182,8 +182,21 @@ Print the .pm3 files on your resin printer.
   - Working with clear resin is tricky, do some web searches to find lots of tips. I had some success with this strategy (though still not perfect):
     - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure time from 4 to 8 seconds, but your printer and resin may vary).
     - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time than usual.
-    - I found that I could get a reasonably nice crystal clear finish if I didn't rinse the clear domes, just kept them goopy with resin and went straight to curing. If you try to do this, you'll need to use a paper towel to dry-dab away the goopy resin on the edges of the "bowls" where they'll join each other, so that the crisp edges survive the curing process, and so the two halves can join nicely after they are cured.
-
+    - My goal was to get a crystal clear finish on the domes without having to sand and polish the parts after printing. This technique makes them a little blobby looking, but they are still quite clear. My steps:
+      - Do not rinse the clear domes in alcohol after printing.
+      - Set yourself an alarm to grab the print as soon as it's done printing (don't leave it hanging on the print bed).
+      - As quickly as possible after it's done printing, remove the clear print from the print bed.
+      - Do not touch the parts. If you followed the instruction above, they should be on fairly large rafts which overlap and are connected together in a single large raft. Handle it by holding the raft, not the parts.
+      - Fold a paper towel twice so that it is flat and stiff. It should be a good brand name paper towel which doesn't crumble and leave lint.
+      - Press the flat paper towel on top of the large upturned circular edges of the domes. This is to dab the wet resin off of the edges where the domes will attach to each other, so the two halves can join nicely after they are cured. Make sure not to touch any other part of the domes, and make sure that no lint is left behind.
+      - Go straight into the curing stage without rinsing the parts.
+      - This should produce domes with no layer lines, they should be crystal clear without any hazing.
+      - Still do not touch the parts, only the bases, the resin may still be sticky.
+      - After they are cured, the dome parts can be rinsed in 99% isopropyl alcohol. Make sure the alcohol is brand new and clean, and doesn't contain any leftover resin from previous rinses. I personally don't use my usual rinsing vat at this point, I just use a spray bottle of fresh alcohol, followed by an air compressor to blow it dry. 
+      - You may notice that the area where the supports attach to the domes will be very blobby. That's OK because you can trim and sand those areas later, they will be hidden inside the upper and lower hat pieces.
+      - In a disposable cup (I used a 16oz Solo cup), heat up some clean water to approximately 50c-60c (122f-140f) and soak the parts in the hot water for 15-30 minutes, briefly removing the parts and reheating the water at regular intervals. The heat speeds up the chemical reactions which normally make the yellowing of the clear resin fade over time. You'll notice a decrease in the yellowness of the resin after this process.
+      - Do another alcohol rinse of the parts, and another blowing dry, to ensure all the water is removed.
+      
 
 Painting:
 ---------
@@ -231,8 +244,8 @@ Painting:
 
   - Clear:
     - Gloss clearcoat the clear resin parts.
-    - If you want to prevent long-term yellowing of the clear resin, then use a gloss clearcoat product which contains UV resistance. The one that I'm using doesn't say anything on its label about UV resistance, I'm using it merely because it gives a crystal clear finish. I should use a different one.
-    - Immediately after applying the gloss clearcoat, while it is still wet, fold a paper towel and press it atop the circular edges where the two halves of the domes meet. This will keep the lip clean so that the two halves still fit together snugly.
+    - If you want to prevent long-term yellowing of the clear resin, then use a gloss clearcoat product which contains UV resistance. The one that I'm using doesn't say anything on its label about UV resistance, I'm using it merely because it gives a crystal clear finish. Get a better one than I got.
+    - Immediately after applying the gloss clearcoat, while it is still wet, fold a paper towel again and press it atop the circular edges where the two halves of the domes meet. This will dab away the clearcoat, keeping the lip clean so that the two halves still fit together snugly.
 
 
 Assembly:
