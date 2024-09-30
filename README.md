@@ -202,23 +202,23 @@ Printing:
 - Optional: Print the white parts in white resin, the head domes in clear resin, and the remainder of the parts in black resin.
   - Since white resin is still kind of yellowish, the white parts will still need to be primed and painted in order to be screen-accurate, however, some of the paint will inevitably get scraped away when you attach the arm springs, so those areas will look better if they are printed in white resin.
   - The hoverskirt ring (the pipe insulation) might not need to be painted if it's printed in black resin.
-- Leave the parts on the supports to make them easy to paint.
 - Rinse/dry/cure the parts while still on the supports.
+- After curing, leave the parts on the supports to make them easy to paint.
 - Clear resin printing tips:
   - Working with clear resin is tricky, do some web searches to find lots of tips. I had some success with this strategy (though still not perfect):
     - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure time from 4 to 8 seconds, but your printer and resin may vary).
     - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time than usual.
-    - My goal was to get a crystal clear finish on the domes without having to sand and polish the parts after printing. This technique makes them blobby looking, but they come out clear without any sanding or polishing. It only works because the clear domes are simple smooth shapes. My steps:
+    - My goal was to get a crystal clear finish on the domes without having to sand and polish the parts after printing. This technique makes them slightly blobby looking, but they come out clear without any sanding or polishing. It only works because the clear domes are simple, smooth shapes. My steps:
       - Do not rinse the clear domes in alcohol after printing.
-      - Set yourself an alarm to grab the print as soon as it's done printing (don't leave it hanging on the print bed).
+      - Set yourself an alarm to grab the print as soon as it's done printing, so that you don't leave it hanging there on the print bed for a long time.
       - As quickly as possible after it's done printing, remove the clear print from the print bed.
       - Do not touch the parts. If you followed the instruction above, they should be on fairly large rafts which overlap and are connected together in a single large raft. Handle it by holding the raft, not the parts.
-      - Fold a paper towel twice so that it is flat and stiff. It should be a good brand name paper towel which doesn't crumble and leave lint.
-      - Press the flat paper towel on top of the large upturned circular edges of the domes. This is to dab the wet resin off of the edges where the domes will attach to each other, so the two halves can join nicely after they are cured. Make sure not to touch any other part of the domes, and make sure that no lint is left behind.
-      - Go straight into the curing stage without rinsing the parts.
+      - Fold a paper towel twice so that it is flat and stiff. It should be a good brand name paper towel which doesn't crumble or leave lint.
+      - Press the flat paper towel on top of the large upturned circular edges of the domes. This is to dab the wet resin off of the edges where the domes will attach to each other, so the two halves can join nicely after they are cured. Make sure not to touch any other part of the domes, and make sure that no lint is left behind. Do not rub (rubbing will cause lint to be left behind), just press and remove the towel. 
+      - Go straight into the curing stage without rinsing the parts, place the parts directly into the curing station.
       - Skipping the rinse stage should produce domes without layer lines, thus they should appear crystal clear without any hazing.
-      - Still do not touch the parts, only the bases. The resin may still be sticky.
-      - After they are cured, the clear parts can be rinsed in 99% isopropyl alcohol. Make sure the alcohol is brand new and clean, and doesn't contain any leftover resin from previous rinses. I personally don't use my usual rinsing vat at this point, I just use a spray bottle of fresh alcohol, followed by an air compressor to blow it dry. 
+      - After curing, still don't touch the parts, only the rafts, because the resin may still be sticky.
+      - After curing, the clear parts can be rinsed in 99% isopropyl alcohol. Make sure the alcohol is brand new and clean, and doesn't contain any leftover resin from previous rinses. I personally don't use my usual rinsing vat at this point, I just use a spray bottle of fresh alcohol, followed by an air compressor to blow it dry. 
       - You may notice that the area where the supports attach to the domes will be very blobby. That's OK because you can trim and sand those areas later, they will be hidden inside the upper and lower hat pieces.
       - In a disposable cup (I used a 16oz Solo cup), heat up some clean water to approximately 50c-60c (122f-140f) and soak the parts in the hot water for 15-30 minutes, briefly removing the parts and reheating the water at regular intervals. The heat speeds up the chemical reactions which normally make the yellowing of the clear resin fade over time. You'll notice a decrease in the yellowness of the resin after this process.
       - Do another alcohol rinse of the parts, and another blowing dry, to ensure all the water is removed.
@@ -265,12 +265,12 @@ Prime and paint the parts while they are still on the supports, so that they are
   | --------------------------------------------------------------------|
 
   - Black:
-    - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring is intended to be a matte rough surface to simulate the foam pipe insulation. Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
+    - If you printed the black parts in black resin, the black skirt rim ring might be fine without paint, look at it and decide. The ring should already have a matte rough surface to simulate the foam pipe insulation. Optionally, paint the black skirt rim ring flat black, then remove it from the supports after it dries.
     - Paint the six trains gloss black.
 
   - Clear:
     - Gloss clearcoat the clear resin parts.
-    - If you want to prevent long-term yellowing of the clear resin, then use a gloss clearcoat product which contains UV resistance. The one that I'm using doesn't say anything on its label about UV resistance, I'm using it merely because it gives a crystal clear finish. Get a better one than I got.
+    - If you want to prevent long-term yellowing of the clear resin, then use a gloss clearcoat product which contains UV resistance. The one that I'm using doesn't say anything on its label about UV resistance, I'm using it merely because it gives a crystal clear finish and dries quickly. Get a better one than I got.
     - Immediately after applying the gloss clearcoat, while it is still wet, fold a paper towel again, and press it atop the circular edges where the two halves of the domes meet, like you did before curing. This will dab away the clearcoat, keeping the lip clean so that the two halves still fit together snugly.
 
   | ![Clear](Photos/Printing%20and%20Assembly%20-%20Clear.jpg) |
@@ -280,15 +280,13 @@ Prime and paint the parts while they are still on the supports, so that they are
 Assembly:
 ---------
 
-Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep the neck and lower beak so that they stay moveable if possible, by fitting those particular parts without gluing. Use photographic references to ensure correct part positioning where needed.
+Allow the paint and clearcoat to dry thoroughly before assembling. If possible, do not glue the neck or lower beak, so that they stay poseable. Use the photos to ensure correct part positioning where needed.
 
-In some cases, it may be easier to leave larger parts on the supports while attaching smaller parts to them.
+In most cases, it is easier to leave larger parts on the supports and rafts, while attaching smaller parts to them.
 
-If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
+If the supports are leaving any "support dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
 
 Always test-fit parts together before applying any glue. It's no fun to apply glue only to discover you still need to do some trimming.
-
-In some cases, it may produce better results if you scrape away the paint where the parts attach to each other. Though the model has been designed so that this should only be minimally needed.
 
 **CAUTION:** Some parts have tiny positioning pegs. Be careful not to confuse these with printing supports. Make sure not to trim away the pegs when you are cleaning up the parts:
 - Engine block: Three pegs on the back side, one near the top edge and two down below.
@@ -296,6 +294,8 @@ In some cases, it may produce better results if you scrape away the paint where 
 - Barrel: Two pegs protrude from each shoulder.
 - Trains: Two pegs on the bottom of each train.
 - Lower beak: Two pegs, one on each side, which are the hinges it rotates upon.
+
+In some cases, it may produce better results if you scrape away the paint where the parts attach to each other. Though the model has been designed so that this should only be minimally needed.
 
 For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version. Substitute whatever glue you think is best. Use the tiniest amount of glue possible, so that the glue does not goosh out from under the parts and become visible. For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
 
