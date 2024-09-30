@@ -225,7 +225,7 @@ Prime and paint the parts while they are still on the supports, so that they are
   - Testors 1525 Red Metallic Flake bottle paint.
   - Rust-Oleum 2X Ultra Cover Paint+Primer, Metallic Aluminum spray paint.
   - Rust-Oleum 2X Ultra Cover, Flat White Primer spray paint.
-  - Krylon Triple-Thick Crystal Clear Glaze 0500 spray paint. Or find a similar one with UV resistance in its formula.
+  - Krylon Triple-Thick Crystal Clear Glaze 0500 spray paint. Or better yet, find a similar one with UV resistance.
   - Testors 1149 Flat Black bottle paint.
   - Testors 1147 Gloss Black bottle paint.
 
