@@ -273,6 +273,10 @@ Hoverskirt:
   - Glue six trains to hoverskirt.
   - Glue hoverskirt to skirt rim ring, make sure that you are gluing it to the 45-degree angled cut on the top inner side of the ring, which should match the 45-degree angled cut at the bottom edge of the hoverskirt. The "support dots" on both the ring and the hoverskirt should be facing down. Take care to center the hoverskirt carefully, and get it to fully seat into place all the way around the ring. You might need to do some sanding or scraping of the bottom edge of the hoverskirt, if the printing resin became blobby where the supports attached. My technique was to make sure the bottom edge of the hoverskirt was sanded smooth (taking care not to damage the paint job on the visible part of the hoverskirt), test fit it in place, and make sure it is centered and fully seated all around the edge. Once it's seated in place, hold it firmly there with one hand, while using the other hand to glue it in place from the **inside**. Keep holding until the glue sets.
 
+  | ![Hoverskirt](Photos/Printing%20and%20Assembly%20-%20Hoverskirt.jpg) |
+  | ---------------------------------------------------------------------------|
+
+
 Barrel:
 
   - It may be useful to leave the barrel on the supports for most of the assembly.
