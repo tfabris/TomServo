@@ -324,7 +324,6 @@ Face:
   | ![Lower Beak Installation](Photos/Printing%20and%20Assembly%20-%20Lower%20Beak%20Installation.jpg) | ![Upper Jaw Arch](Photos/Printing%20and%20Assembly%20-%20Upper%20Jaw%20Arch.jpg) |
   | ------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
   | ![Face 1](Photos/Printing%20and%20Assembly%20-%20Face%201.jpg) | ![Face 2](Photos/Printing%20and%20Assembly%20-%20Face%202.jpg) |
-  | ------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 
 
   - Glue the upper beak to the upper jaw arch, inserting from the back side. Ensure that it is glued (from the back) at both at the top and at the bottom corners where the arch goes down the sides of the beak. This is to ensure that it doesn't twist or rotate in relation to the arch as you assemble the rest of the face. Make sure the arch is straight on the beak and then let the glue dry before the next step.
