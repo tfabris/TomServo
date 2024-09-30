@@ -414,7 +414,7 @@ Just reload the original version of the file. Don't try to do any edits in the "
 ### Differences in Tom's appearance:
 
   - In early seasons, the "lower hat" piece is not part of Tom's head assembly. It was added in later seasons.
-  - The trains on the hoverskirt change their appearance constantly over time. They were vacu-formed from the original train toy shape: The amount of "squish" around their edges, and where they're positioned on the hoverskirt, depend on who did the vacu-forming, where they cut the edges of the plastic, and how carefully they glued them into position.
+  - The trains on the hoverskirt change their appearance constantly over time. They were vacu-formed from the original toy train shape: The amount of "squish" around their edges, and where they're positioned on the hoverskirt, depend on who did the vacu-forming, where they cut the edges of the plastic, and how carefully they glued them into position.
   - The clear head dome changed to frosted in Gizmoplex seasons.
   - The inner shoulder pieces change appearance as time goes on. Photos of later puppets don't match the photos in the fan club's Bot Building Guide.
 
