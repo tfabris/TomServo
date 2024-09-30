@@ -131,6 +131,10 @@ You will be making multiple selections to export separate groups of objects, to 
     - "Selection Only" ← IMPORTANT
     - "Scene Unit" ← IMPORTANT
     - "Apply Modifiers" ← IMPORTANT
+
+    | ![Export](Photos/Export.png) |
+    | -----------------------------|
+
   - Export each group as their own STL files:
     - Tom Clear.stl
     - Tom White.stl
