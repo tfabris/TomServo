@@ -160,7 +160,7 @@ You may use any slicer to process the files. Instructions here are for Chitubox 
     - Select the "Light" version of the supports.
     - Edit the "Raft" or "Base" or "Platform" parameters by selecting the appropriate screen in the support editor.
     - Increase the size of the Rafts/Bases/Platforms. Some slicers will give this as a percentage value, others will have you enter a specific size. Make them larger than the default.
-    - This is to make each color group's rafts run together, so that the parts all sit together on one large raft. This makes them easier to handle and makes it possible to spray paint each color group as a single unit. Adjust this number as needed, so that the rafts are big enough to overlap each other, but not so big that they exceed the print bed size.
+    - This is to make each color group's rafts run together, so that the parts all sit together on one large raft. This makes them easier to handle and makes it possible to spray paint each color group as a single unit. Adjust this number as needed, so that the rafts are big enough to **overlap** each other, but **not** so big that they exceed the print bed size.
 
     | ![Raft Size](Photos/Rafts.png) |
     | -------------------------------|
