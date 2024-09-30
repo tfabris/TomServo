@@ -316,8 +316,8 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
   - Cut the arm springs to your desired arm length based on photographic references. Cut away the curls at the ends of the springs so that they are just pure spirals with no protrusions.
     - **WARNING:** Cut spring ends are SHARP! They will stab you when you try to attach them, if you slip while attaching. Always make sure that you are pressing or twisting AWAY from your fingertips when assembling.
 
-  | ![Spring Trimming](Photos/Printing%20and%20Assembly%20-%20Spring%20Trimming.jpg) | ![Spring Installation](Photos/Printing%20and%20Assembly%20-%20Spring%20Installation.jpg) |
-  | -------------------------------------------------------------------|----------------------------------------------------------------------|
+  | ![Spring Trimming](Photos/Printing%20and%20Assembly%20-%20Spring%20Trimming.jpg) | ![Spring Installation](Photos/Printing%20and%20Assembly%20-%20Spring%20Installation.jpg) | ![Spring on Shoulder](Photos/Printing%20and%20Assembly%20-%20Spring%20on%20Shoulder.jpg) |
+  | ---------------------------------|----------------------------------------|----------------------------------------|
 
 
   - Stretch out the last loop of each end of each spring, very slightly, to make it easier to wrap the springs into the slots on the shoulders and hands. You may need to stretch the springs in two directions: both enlarging the circumference of the last loop by a tiny amount, and also lifting the last loop lengthwise away from the other loops.
@@ -327,10 +327,6 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
     - Needle-nose pliers are useful to hold the loose end of the spring while attaching to the hands.
     - Leaving the shoulder sections on the supports makes it easier to hold the shoulders while connecting the springs.
     - Make sure the hands are rotated into the correct orientation relative to the shoulders.
-
-  | ![Spring on Shoulder](Photos/Printing%20and%20Assembly%20-%20Spring%20on%20Shoulder.jpg) |
-  | -----------------------------------------------------------------------------------------|
-
   - Depending on the springs, they might be on there firmly enough so that they don't need glue. If not, reinforce with glue.
   - Glue Shoulder assemblies to the barrel top sides at 90 degrees from the engine block. There are two pegs on the barrel shoulders which should fit into two holes on the shoulder pauldrons. Make sure the hands are in the correct orientation before gluing.
 
