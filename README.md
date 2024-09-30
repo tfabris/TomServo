@@ -338,13 +338,17 @@ Dome:
   | ---------------------------------------------------------------------------------------------|
 
   - Use extreme caution to not let glue cause hazing on the clear parts. Use tiniest possible amount of glue. Superglue can cause hazing on clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing.
-  - Glue lower dome section to the lower hat.
-    - Note that the lower dome is the one with the shorter lip which fits into the lower hat. The lower hat is the one with the rod coming out of the bottom.
-  - Glue upper dome to lower dome.
-  - Glue top hat on top.
+  - If you sourced the 3cm globe externally, there is no "guide" for gluing the hat pieces to the domes. Use extreme care to make them straight and centered. Carefully double check the positioning before the glue dries. This might be made easier if you temporarily assemble the head and body onto the hoverskirt, so that everything is stable and easy to reach.
 
     | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) |
     | -------------------------------------------------------------------------|
+
+  - Glue lower dome section to the lower hat.
+    - If using the clear resin parts, the lower dome is the one with the shorter lip which fits into the lower hat.
+    - The lower hat is the one with the rod coming out of the bottom.
+  - If using the clear resin parts, glue upper dome to lower dome.
+  - If using the externally-sourced 3cm globe, you might not need to to glue the two halves together.
+  - Glue the top hat on top.
 
 Finishing:
   - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the same axis as the engine block.
