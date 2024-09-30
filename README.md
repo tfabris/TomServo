@@ -65,7 +65,7 @@ You'll need to source some external parts to complete this model.
     - https://www.amazon.com/gp/product/B0776NHB88
 
   | ![Baubles](Photos/Printing%20and%20Assembly%20-%20Baubles.jpg) | vs. | ![Resin Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Resin%20Domes%20Trimmed.jpg) |
-  | ----------------------------------------------------------------------|-------|-----------------------------------------------------------------|
+  | ---------------------------------------------------------------|-----|-----------------------------------------------------------------|
   | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) | vs. | ![Resin Head](Photos/Printing%20and%20Assembly%20-%20Resin%20Head.jpg) |
 
 
@@ -161,6 +161,10 @@ You may use any slicer to process the files. Instructions here are for Chitubox 
     - Edit the "Raft" or "Base" or "Platform" parameters by selecting the appropriate screen in the support editor.
     - Increase the size of the Rafts/Bases/Platforms. Some slicers will give this as a percentage value, others will have you enter a specific size. Make them larger than the default.
     - This is to make each color group's rafts run together, so that the parts all sit together on one large raft. This makes them easier to handle and makes it possible to spray paint each color group as a single unit. Adjust this number as needed, so that the rafts are big enough to overlap each other, but not so big that they exceed the print bed size.
+
+    | ![Raft Size](Photos/Barrel%20Rafts.png) |
+    | ----------------------------------------|
+
     - Press the appropriate button in your slicer to auto-add rafts and supports ("+All" in Chitubox), adjust the raft size again if needed, and press the button again if you changed the raft size.
     - Edit the supports (You may need to rotate the view, to view the model from the bottom, to edit the supports). Goals when editing supports:
       - Where possible, attach supports only to places which are less visible in the final model. Delete supports which will mar the finish of the visible portions of the model, but only if you can safely delete them without causing a printing problem.
@@ -260,7 +264,7 @@ Prime and paint the parts while they are still on the supports, so that they are
     - Immediately after applying the gloss clearcoat, while it is still wet, fold a paper towel again, and press it atop the circular edges where the two halves of the domes meet, like you did before curing. This will dab away the clearcoat, keeping the lip clean so that the two halves still fit together snugly.
 
   | ![Clear](Photos/Printing%20and%20Assembly%20-%20Clear.jpg) |
-  | ---------------------------------------------------------------------|
+  | -----------------------------------------------------------|
 
 
 Assembly:
@@ -311,7 +315,7 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
     - **WARNING:** Cut spring ends are SHARP! They will stab you when you try to attach them, if you slip while attaching. Always make sure that you are pressing or twisting AWAY from your fingertips when assembling.
 
   | ![Spring Trimming](Photos/Printing%20and%20Assembly%20-%20Spring%20Trimming.jpg) | ![Spring Installation](Photos/Printing%20and%20Assembly%20-%20Spring%20Installation.jpg) |
-  | ------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+  | -------------------------------------------------------------------|----------------------------------------------------------------------|
 
 
   - Stretch out the last loop of each end of each spring, very slightly, to make it easier to wrap the springs into the slots on the shoulders and hands. You may need to stretch the springs in two directions: both enlarging the circumference of the last loop by a tiny amount, and also lifting the last loop lengthwise away from the other loops.
@@ -334,7 +338,7 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
   - Slide the lower beak into the face, sliding its two pegs into the slots from above. You will need to angle it as you insert it, so that it gets around the interior geometry of the face assembly. Once it is in place, do not glue it, leave it poseable.
 
   | ![Lower Beak Installation](Photos/Printing%20and%20Assembly%20-%20Lower%20Beak%20Installation.jpg) | ![Upper Jaw Arch](Photos/Printing%20and%20Assembly%20-%20Upper%20Jaw%20Arch.jpg) |
-  | ------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+  | ----------------------------------------------------------------|----------------------------------------------------------------------|
   | ![Face 1](Photos/Printing%20and%20Assembly%20-%20Face%201.jpg) | ![Face 2](Photos/Printing%20and%20Assembly%20-%20Face%202.jpg) |
 
 
