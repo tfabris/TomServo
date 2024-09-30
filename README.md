@@ -432,5 +432,6 @@ Just reload the original version of the file. Don't try to do any edits in the "
 To Do:
 ------
 
-Hands are too big. Need to shrink the hands to about 85-90% of current size, but without changing the size of the spring attachment point.
+See https://github.com/tfabris/TomServo/issues for the to-do list.
+
 
