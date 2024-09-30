@@ -327,7 +327,7 @@ Face:
 
 
   - Glue the upper beak to the upper jaw arch, inserting from the back side. Ensure that it is glued (from the back) at both at the top and at the bottom corners where the arch goes down the sides of the beak. This is to ensure that it doesn't twist or rotate in relation to the arch as you assemble the rest of the face. Make sure the arch is straight on the beak and then let the glue dry before the next step.
-  - After the glue is dry on the upper beak and arch assembly, then slide the upper jaw arch into the slot in the face from above until it is in the correct place in relation to the lower beak. Make its top edge parallel with top edge of the face. Glue it in place from behind and ensure you don't get glue on the lower beak.
+  - After the glue is dry on the upper beak and arch assembly, then slide the upper jaw arch into the slot in the face from above until it is in the correct place in relation to the lower beak. Make its top edge parallel with the top edge of the face. Glue it in place from behind and ensure you don't get glue on the lower beak.
   - Ensure that you can still open and close the lower beak.
   
 Dome:
