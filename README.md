@@ -247,6 +247,9 @@ Painting:
     - If you want to prevent long-term yellowing of the clear resin, then use a gloss clearcoat product which contains UV resistance. The one that I'm using doesn't say anything on its label about UV resistance, I'm using it merely because it gives a crystal clear finish. Get a better one than I got.
     - Immediately after applying the gloss clearcoat, while it is still wet, fold a paper towel again and press it atop the circular edges where the two halves of the domes meet. This will dab away the clearcoat, keeping the lip clean so that the two halves still fit together snugly.
 
+  | ![Clear](Photos/Printing%20and%20Assembly%20-%20Clear.jpg) |
+  | ---------------------------------------------------------------------|
+
 
 Assembly:
 ---------
