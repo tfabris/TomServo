@@ -97,7 +97,7 @@ Keep the parts in their arranged positions, in the blender file, when you export
       - If the icon is lit up blue and white, the realtime display for that modifier is turned on.
       - Make sure the realtime display is turned on for the Subdivision and Displace modifiers on the Barrel object.
     - Do not "Apply" these modifiers, or else everything in this file will permanently run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
-    - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these modifiers. Don't forget to turn them back on before exporting.
+    - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these modifiers. Remember to turn them back on before exporting.
 
     | ![Barrel Texture](Photos/Barrel%20Texture.png) |
     | -----------------------------------------------|
