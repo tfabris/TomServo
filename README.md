@@ -76,35 +76,36 @@ Instructions below are for Blender version 3.6. If you are running a later versi
 
 Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions.
 
+Open the file:
+
   - Open the "Tom.blend" file in Blender.
     - (Do not print from the "Hand" or "Shoulder" files, those are intermediate work files.)
+
+Ensure correct scaling: 
+
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
     - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
-  - Make sure the realtime viewport display of the modifiers on the "Train" objects and the "Barrel" object are enabled, so that they print with the correct surface textures.
-    - Select each of these objects in turn and perform the following steps on them. They must be selected one at a time (multi-select doesn't work for these steps):
-      - Train 1 through Train 6
-      - Barrel
-    - Select a single one of those objects. Object should have an orange outline.
-    - There should be either one modifier or two modifiers on the object (Subdivision and/or Displace), seen in the "Modifiers" panel, lower right hand panel in the UI; press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
+
+Activate surface textures:
+
+  - Make sure the realtime viewport display of the modifiers on "Barrel" object are enabled, so that it prints with the correct surface textures.
+    - Select the "Barrel" object.
+    - Object should have an orange outline.
+    - There should be two modifiers on the object (Subdivision and Displace), seen in the "Modifiers" panel, lower right hand panel in the UI; press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
     - Examine the "Realtime" button for each of the modifiers. The button is the third of four icons next to the modifier name. The button icon looks like a tiny LCD screen on the modifier panel.
       - If the icon is gray, it means the realtime display for that modifier is turned off.
       - If the icon is lit up blue and white, the realtime display for that modifier is turned on.
-      - Make sure the realtime display is turned on for the Subdivision and Displace modifiers on the Barrel object, and for the Subdivision modifier on all six of the Train objects.
+      - Make sure the realtime display is turned on for the Subdivision and Displace modifiers on the Barrel object.
     - Do not "Apply" these modifiers, or else everything in this file will permanently run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
     - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these modifiers. Don't forget to turn them back on before exporting.
-  - In the main viewport window, group-select the objects you want to print.
-    - You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
-    - Select the objects arranged in each color group:
+
+Export each color group:
+
+    You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
+
+  - In the main viewport window, group-select the objects arranged in each color group, and export each group after selecting:
       - Clear objects:
         - Dome Bottom/Top
-      - Red/Silver objects together:
-        - Barrel (and its child, Barrel Crossbars, keep these together as if they were one object)
-        - Engine block
-        - Face
-        - Jaw Top
-        - Lower Hat/Top Hat
-        - Beak Bottom/Top
-        - Engine Pipes 1/2
       - White objects:
         - Hand L/R
         - Hoverskirt
@@ -112,7 +113,15 @@ Keep the parts in their arranged positions, in the blender file, when you export
       - Black objects:
         - Skirt rim
         - Train 1-6
-  - Make sure ONLY the desired objects are selected before exporting.
+       - Red and Silver objects together:
+        - Barrel (and its child, Barrel Crossbars, keep these together as if they were one object)
+        - Engine block
+        - Face
+        - Jaw Top
+        - Lower Hat/Top Hat
+        - Beak Bottom/Top
+        - Engine Pipes 1/2
+  - Make sure ONLY the desired objects are selected (one color group only) before exporting.
   - File, Export, .STL, export each of the color groups above as a separate file.
   - Make absolutely sure these tickyboxes are ticked:
     - "Selection Only" ← IMPORTANT
@@ -120,9 +129,9 @@ Keep the parts in their arranged positions, in the blender file, when you export
     - "Apply Modifiers" ← IMPORTANT
   - Export each group as their own STL files:
     - Tom Clear.stl
-    - Tom Red Silver.stl
     - Tom White.stl
     - Tom Black.stl
+    - Tom Red Silver.stl
   - Note: The Red/Silver group is expected to be slow to export, and slow to import and slice in slicer programs, due to the complex surface detail modifiers on the barrel.
   - Note: SceneKitQLThumbnailExtension - When you export a particularly large and complex STL file, such as the Red/Silver group's STL file, a problem can occur. If you happen to be running on an Apple Macintosh computer, there is an unfixed bug in the operating system which occurs when you have a large STL file on the hard disk. The invisible background program "SceneKitQLThumbnailExtension" attempts to create a preview image of the STL file and it will spin the CPU up to 200 percent, make your computer run hot, the fan will spin loudly, and all programs on the computer will run slow and have a tendency to "beachball" on every simple task. To work around this, do the following:
     - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension and terminate it with the little X button in the toolbar (choose Force Quit). You may need to do this more than once.
@@ -400,22 +409,4 @@ Differences in Tom's appearance:
   - The trains on the hoverskirt change their appearance constantly over time. They were vacu-formed from the original train toy shape: The amount of "squish" around their edges, and where they're positioned on the hoverskirt, depend on who did the vacu-forming, where they cut the edges of the plastic, and how carefully they glued them into position.
   - The clear head dome changed to frosted in Gizmoplex seasons.
   - The inner shoulder pieces change appearance as time goes on. Photos of later puppets don't match the photos in the fan club's Bot Building Guide.
-
-
-To Do:
-------
-
-Domes:
-- Top edges need to be at the exact same level
-
-
-Shoulders: 
-- Enlarge and deepen the peg holes. Make them go as deep as possible. They tend to get filled in with resin despite rinsing well.
-
-Hoverskirt:
-- Carve a flat bottom side for the supports, so that the 45 degree fitting surface doesn't curve with the printing process.
-
-If assembly went OK, then delete the "backup" objects from the blender file.
-
-
 
