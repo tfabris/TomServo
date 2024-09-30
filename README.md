@@ -335,7 +335,7 @@ Dome:
   - If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on each of the globe halves. If done very carefully, the spots where the tabs used to be will be very small, only the size of the tabs themselves, and you can position those spots at the back of the head so they're less visible.
 
   | ![Bauble Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Bauble%20Domes%20Trimmed.jpg) |
-  | -------------------------------------------------------------------------------------------|
+  | ---------------------------------------------------------------------------------------------|
 
   - Use extreme caution to not let glue cause hazing on the clear parts. Use tiniest possible amount of glue. Superglue can cause hazing on clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing.
   - Glue lower dome section to the lower hat.
@@ -343,7 +343,10 @@ Dome:
   - Glue upper dome to lower dome.
   - Glue top hat on top.
 
-Final:
+    | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) |
+    | -------------------------------------------------------------------------|
+
+Finishing:
   - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the same axis as the engine block.
   - Insert face assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
   - Install the lower hat to the top of the face assembly. The lower hat is the one with the rod coming out of the bottom, the rod inserts into the corresponding hole in the top center of the face assembly. This might need to be glued, or you may choose to not glue it, depending on how tightly it fits into position after painting.
