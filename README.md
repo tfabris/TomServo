@@ -136,11 +136,11 @@ You will be making multiple selections to export separate groups of objects, to 
     | -----------------------------|
 
   - Export each group as their own STL files:
-    - Tom Clear.stl
-    - Tom White.stl
-    - Tom Black.stl
-    - Tom Red Silver.stl
-  - Note: The Red/Silver group is expected to be slow to export, and slow to import and slice in slicer programs, due to the complex surface detail modifiers on the barrel.
+    - Clear.stl
+    - White.stl
+    - Black.stl
+    - Red Silver.stl
+  - Note: The Red Silver group is expected to be slow to export, and slow to import and slice in slicer programs, due to the complex surface detail modifiers on the barrel.
   - Note: SceneKitQLThumbnailExtension - When you export a particularly large and complex STL file, such as the Red/Silver group's STL file, a problem can occur. If you happen to be running on an Apple Macintosh computer, there is an unfixed bug in the operating system which occurs when you have a large STL file on the hard disk. The invisible background program "SceneKitQLThumbnailExtension" attempts to create a preview image of the STL file and it will spin the CPU up to 200 percent, make your computer run hot, the fan will spin loudly, and all programs on the computer will run slow and have a tendency to "beachball" on every simple task. To work around this, do the following:
     - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension and terminate it with the little X button in the toolbar (choose Force Quit). You may need to do this more than once.
     - Delete the STL file from the hard disk as soon as you have imported the STL file into your slicer and saved the project in the slicer's format.
