@@ -16,8 +16,8 @@ Required software:
   - A slicer program - I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
 
 
-Where These Designs Originated:
--------------------------------
+Where These Meshes Originated:
+------------------------------
 
 Most parts were originally from a set of 3D models by @Pack_512 found on the Printables.com web site. These were originally intended to print full size puppet parts on a PLA printer. However they did not include every part, and the parts they did include needed significant modification for resin printing a small figurine. Originals were found at:
 
