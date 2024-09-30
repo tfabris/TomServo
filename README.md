@@ -104,7 +104,7 @@ Activate surface textures:
 
 Export each color group:
 
-    You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
+  You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
 
   - In the main viewport window, group-select the objects arranged in each color group, and export each group after selecting:
       - Clear objects:
