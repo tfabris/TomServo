@@ -88,7 +88,7 @@ Keep the parts in their arranged positions, in the blender file, when you export
 
 ### Activate surface textures:
 
-  - Make sure the realtime viewport display of the modifiers on "Barrel" object are enabled, so that it prints with the correct surface textures.
+  - Make sure the realtime viewport display of the modifiers on "Barrel" object are enabled, so that it prints with the correct surface textures:
     - Select the "Barrel" object.
     - Object should have an orange outline.
     - There should be two modifiers on the object (Subdivision and Displace), seen in the "Modifiers" panel, lower right hand panel in the UI; press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
