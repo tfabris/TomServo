@@ -337,8 +337,8 @@ Dome:
   | ![Bauble Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Bauble%20Domes%20Trimmed.jpg) |
   | ---------------------------------------------------------------------------------------------|
 
-  - Use extreme caution to not let glue cause hazing on the clear parts. Use tiniest possible amount of glue. Superglue can cause hazing on clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing.
-  - If you sourced the 3cm globe externally, there is no "guide" for gluing the hat pieces to the domes. Use extreme care to make them straight and centered. Carefully double check the positioning before the glue dries. This might be made easier if you temporarily assemble the head and body onto the hoverskirt, so that everything is stable and easy to reach.
+  - Use extreme caution to not let glue cause hazing on the clear parts. Superglue can cause hazing on clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing. Canopy glue dries clear, is easy to clean up, doesn't stain the clear plastic, and takes a long time to dry, allowing for repositioning.
+  - If you sourced the 3cm globe externally, there is no "guide" for gluing the hat pieces to the domes. Use extreme care to make them straight and centered. Carefully double check the positioning before the glue dries (this is where canopy glue helps). This might be made easier if you temporarily assemble the head and body onto the hoverskirt, so that everything is stable and easy to reach.
 
     | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) |
     | -------------------------------------------------------------------------|
