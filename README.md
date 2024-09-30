@@ -274,7 +274,9 @@ Allow the paint and clearcoat to dry thoroughly before assembling. Try to keep t
 
 In some cases, it may be easier to leave larger parts on the supports while attaching smaller parts to them.
 
-If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other. Always test-fit parts together before applying any glue. It's no fun to apply glue only to discover you still need to do some trimming.
+If the supports are leaving any "dots" behind on the parts, use a fresh sharp X-acto blade and/or sandpaper to carefully scrape away the dots. If you have positioned the supports carefully when you ran the slicer, the dots should not be on any easily-visible painted surfaces. If there are, touch up the paint as necessary. The main reason to trim away the dots is that they might get in the way during assembly, causing certain parts not to fit flush against each other.
+
+Always test-fit parts together before applying any glue. It's no fun to apply glue only to discover you still need to do some trimming.
 
 In some cases, it may produce better results if you scrape away the paint where the parts attach to each other. Though the model has been designed so that this should only be minimally needed.
 
