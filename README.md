@@ -14,7 +14,7 @@ A project for resin-printing a small model of a character from Mystery Science T
 #### Required hardware:
   
   - A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com
-  - The parts are arranged to fit on my printer's 7.6-inch screen. If yours is smaller, you'll need to print your parts in smaller batches.
+  - The parts are arranged to fit on the 7.6-inch screen of the Photon M3. If yours is smaller, you'll need to print your parts in more batches of fewer parts each.
 
 #### Required software:
 
@@ -79,7 +79,7 @@ Exporting Models From Blender for Printing:
 
 Instructions below are for Blender version 3.6. If you are running a later version, it might work a little differently. I haven't tried this on Blender 4.2 yet.
 
-Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions.
+Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions. If you have a smaller printer resin printer, then export the pieces in more groups of fewer pieces, but keep them in the same orientations.
 
 #### Open the file:
 
@@ -112,7 +112,8 @@ Keep the parts in their arranged positions, in the blender file, when you export
 
 You will be making multiple selections to export separate groups of objects, to print them in their own resin colors and/or paint them as a group. Even if printing in the correct resin colors, you'll still be painting most of the pieces anyway, since the resin colors will not be screen-accurate.
 
-  - In the main viewport window, group-select the objects arranged in each color group, and export each group after selecting:
+  - In the main viewport window, group-select the objects arranged in each color group, and export each group after selecting.
+  - The color groups are arranged for a printer with a 7.6-inch screen. If yours is smaller, then you'll need to export the pieces in more groups of fewer pieces each.
       - Clear objects:
         - Dome Bottom/Top 
       - White objects:
@@ -145,9 +146,9 @@ You will be making multiple selections to export separate groups of objects, to 
     - White.stl
     - Black.stl
     - Red Silver.stl
-  - Note: The Red Silver group is expected to be slow to export, and slow to import and slice in slicer programs, due to the complex surface detail modifiers on the barrel.
-  - Note: SceneKitQLThumbnailExtension - When you export a particularly large and complex STL file, such as the Red/Silver group's STL file, a problem can occur. If you happen to be running on an Apple Macintosh computer, there is an unfixed bug in the operating system which occurs when you have a large STL file on the hard disk. The invisible background program "SceneKitQLThumbnailExtension" attempts to create a preview image of the STL file and it will spin the CPU up to 200 percent, make your computer run hot, the fan will spin loudly, and all programs on the computer will run slow and have a tendency to "beachball" on every simple task. To work around this, do the following:
-    - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension and terminate it with the little X button in the toolbar (choose Force Quit). You may need to do this more than once.
+  - The Red Silver group is expected to be slow to export, and slow to use in slicer programs, due to the complex surface detail modifiers on the barrel.
+  - Note: SceneKitQLThumbnailExtension - When you export a particularly large and complex STL file, such as the Red/Silver group's STL file, a problem can occur. If you happen to be running on an Apple Macintosh computer, there is an unfixed bug in the operating system which occurs when you have a large STL file on the hard disk. The invisible background program "SceneKitQLThumbnailExtension" attempts to create a preview image of the STL file and it will spin the CPU up to 200 percent, make your computer run hot, the fan will spin loudly, and all programs on the computer will run slow and have a tendency to "beachball" on simple tasks. To work around this, do the following:
+    - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension, and terminate it with the little X button in the toolbar (choose Force Quit). You may need to do this more than once.
     - Delete the STL file from the hard disk as soon as you have imported the STL file into your slicer and saved the project in the slicer's format.
 
 Trivia: The Blender file is measured in "meters", but when you import the STL files in your slicer, it will use "millimeters" as its measurement system when importing them.
@@ -162,9 +163,9 @@ You may use any slicer to process the files. Instructions here are for Chitubox 
 
   - Import one of the color group STL files that you exported.
   - Ensure the parts fit on the print bed and are centered.
-  - Keep the parts in their arranged positions when slicing. **Do not tilt the parts.** The parts were already in their correct printing positions in the original blender file.
+  - Keep the parts in their arranged positions when slicing. **Do not tilt the parts.** The parts were already in their correct printing orientations in the original blender file.
   - In the slicer, save the project file, in the slicer's file format.
-  - Delete the STL file you just imported. Reasons: The STL files can be very large (Red/Silver in particular), you don't need the STL file any more since you have the slicer project file, and you can regenerate STLs from the .blend file whenever you want. Most importantly, on MacOS, large STL files on the hard disk cause a bug in the operating system, detailed above.
+  - Delete the STL file you just imported. Reasons: The STL files can be very large (Red Silver in particular), you don't need the STL file any more since you have the slicer project file, and you can regenerate STLs from the .blend file whenever you want. Most importantly, on MacOS, large STL files on the hard disk cause a bug in the operating system, detailed above.
   - Switch to the support editing screen in your slicer.
     - Select the "Light" version of the supports.
     - Edit the "Raft" or "Base" or "Platform" parameters by selecting the appropriate screen in the support editor.
