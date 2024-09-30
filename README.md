@@ -54,7 +54,7 @@ Arm springs:
   - Spring size: Approx 7mm (0.028in) wide, 25mm or longer length (will be cut to length).
   - Example:
     - https://www.amazon.com/dp/B0CXJMNDDL
-    - Those example springs are too heavy-duty, and are hard to attach. Find lighter-weight springs than those, if possible. Send me a link if you find some.
+    - Those example springs are too heavy-duty, and are hard to attach. Find springs which are more lightweight than those, if possible. Send me a link if you find some.
 
 Head globe (optional):
 
