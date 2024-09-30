@@ -23,14 +23,14 @@ Most parts were originally from a set of 3D models by @Pack_512 found on the Pri
 
   - https://www.printables.com/en/model/98987/files
 
-The hoverskirt, doll hands, and skirt rim were created from scratch by me, Tony Fabris. 
+The hoverskirt, doll hands, and skirt rim were modeled from scratch by me, Tony Fabris. 
 
 I have made many modifications to @Pack_512's parts to make them more screen-accurate, easier to resin-print, and easier to paint and assemble into a model. 
 
-I added barrel surface detail to the @Pack_512 barrel part, done as a Displacement Map modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". Source layers for the PNG are found in "BarrelWoodgrain.xcf" is also included for convenience, and can be opened in GIMP if needed.
+I added barrel surface detail to the @Pack_512 barrel part, done as a Displacement Map modifier in the Blender file, using a UV map and the external file "BarrelWoodgrain.png". The original layers for the PNG are found in "BarrelWoodgrain.xcf", which is also included for convenience, and can be opened in GIMP if needed.
 
 
-Reference Material:
+Reference Materials:
 
   - Official MST3K bot building guide. I got mine from the fan club many years ago (when there was still a fan club), but here is a link to a scanned copy that someone put on dropbox:
     - https://www.dropbox.com/s/sl6pzz7m48q7dxr
