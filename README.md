@@ -99,10 +99,6 @@ Activate surface textures:
     - Do not "Apply" these modifiers, or else everything in this file will permanently run slowly. Just make sure the realtime viewport display of the modifiers is turned on before exporting.
     - If you are doing editing on this blender file, blender's speed and responsiveness will improve if you turn off the realtime viewport display of these modifiers. Don't forget to turn them back on before exporting.
 
-  ![Barrel Texture](Photos/Barrel%20Texture.png)
-
-
-
     | ![Barrel Texture](Photos/Barrel%20Texture.png) |
     | -----------------------------------------------|
 
