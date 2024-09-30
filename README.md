@@ -9,7 +9,7 @@ https://github.com/tfabris/TomServo
 | ![Tom Secondary 1](Photos/Secondary%201.jpg) | ![Tom Secondary 2](Photos/Secondary%202.jpg) | ![Tom Secondary 1](Photos/Secondary%203.jpg) |
 | ---------------------------------------------|----------------------------------------------|----------------------------------------------|
 
-A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5⅛ inches) tall.
+A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5⅛ inches) tall. (I'm gonna do Crow T. Robot next, I'll link him here when he's done.)
 
 #### Required hardware:
   
@@ -373,12 +373,11 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
     | -------------------------------------------------------------------------|
 
   
-
 #### Finishing:
 
-  - Glue barrel bottom to hoverskirt. Ensure that one of the trains is centered on the front, exactly under the engine block.
-  - Insert face assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
-  - Install the lower hat to the top of the face assembly. The lower hat is the one with the rod coming out of the bottom, the rod inserts into the corresponding hole in the top center of the face assembly. This might need to be glued, or you may choose to not glue it, depending on how tightly it fits into position after painting.
+  - Glue the barrel to the hoverskirt. Ensure that one of the trains is centered on the front, exactly under the engine block.
+  - Glue the head dome assembly into the face assembly, and if you used the clear baubles, make sure the dremeled section of the bauble is in the back, opposite the beak.
+  - Insert the head assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
 
 
 Notes:
