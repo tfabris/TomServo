@@ -234,6 +234,7 @@ Prime and paint the parts while they are still on the supports, so that they are
   - Testors 1629T Red Metallic Flake spray paint. (Canonical screen-accurate color.)
   - Testors 1525 Red Metallic Flake bottle paint.
   - Rust-Oleum 2X Ultra Cover Paint+Primer, Metallic Aluminum spray paint.
+  - Testors 1146 Metallic Silver bottle paint.
   - Rust-Oleum 2X Ultra Cover, Flat White Primer spray paint.
   - Krylon Triple-Thick Crystal Clear Glaze 0500 spray paint. Or better yet, find a similar one with UV resistance.
   - Testors 1149 Flat Black bottle paint.
@@ -241,16 +242,19 @@ Prime and paint the parts while they are still on the supports, so that they are
 
 #### Painting:
 
-  - Red and Silver parts are first spray-painted silver together:
-    - Silver is an undercoat for the red, important for a screen-accurate shine. I used "metallic aluminum" color.
-    - After drying, remove only the silver parts from the supports (2 beak parts and 2 engine pipe parts) and set them aside. Leave the rest on the supports, to paint the red coat atop the silver.
+  - The Red Silver group of parts are first spray-painted silver all together:
+    - Silver is an undercoat for the red, which is important for a screen-accurate shine. I used the "metallic aluminum" spray paint to evenly coat the entire parts group.
+    - After the undercoat dries, there are special steps for the four silver parts (2 beak parts and 2 engine pipe parts):
+      - Make the four silver parts even shinier, by hand-painting them with Testors 1146 Metallic Silver bottle paint. Hand-paint only the exterior portions of the beak and engine pipes, don't add additional silver paint to the interior places, or to the places where the parts attach to each other.
+      - (I didn't do the extra layer of silver when I assembled my model and took my photographs, so the extra shiny beak and pipes are not pictured. I later decided I needed to go back and do this. I deeply regretted not having done it while the parts were still on the supports.)
+      - After drying, remove the four silver parts from the supports. Leave the rest on the supports, to paint the red coat.
 
   | ![Silver Part Set](Photos/Printing%20and%20Assembly%20-%20Silver.jpg) | ![Red Part Set](Photos/Printing%20and%20Assembly%20-%20Red.jpg) |
   | ----------------------------------------------------------------------|-----------------------------------------------------------------|
 
   - Red:
-      - The Testors red flake is tricky paint. It will look best if done in multiple thin coats and allowed to dry between each coat.
-      - After dry, remove the top hat from the supports, and hand-paint its inner side, which is visible through Tom's clear head.
+      - The Testors red flake is tricky paint. It is semi-transparent, and the silver undercoat will shine through it. It will look best if done in multiple thin coats and allowed to dry between each coat. If you try to paint it on thickly enough so that it looks screen-accurate in one coat, then the paint will have unsightly drips and sags on your model.
+      - After drying, remove the top hat from the supports, trim away the support dots, and hand-paint its inner side, which is visible through Tom's clear head.
   - Inside of Tom's mouth:
     - Inner section of Tom's lower beak should be hand-painted flat black. Thinning the paint might help with getting it to flow smoothly into the indentation without getting it on the edges.
     - Edge of lower beak and inside of upper beak remain silver.
