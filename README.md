@@ -198,7 +198,7 @@ Printing:
   - Working with clear resin is tricky, do some web searches to find lots of tips. I had some success with this strategy (though still not perfect):
     - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure time from 4 to 8 seconds, but your printer and resin may vary).
     - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time than usual.
-    - My goal was to get a crystal clear finish on the domes without having to sand and polish the parts after printing. This technique makes them a little blobby looking, but they are still quite clear. My steps:
+    - My goal was to get a crystal clear finish on the domes without having to sand and polish the parts after printing. This technique makes them blobby looking, but they come out clear without any sanding or polishing. It only works because the clear domes are simple smooth shapes. My steps:
       - Do not rinse the clear domes in alcohol after printing.
       - Set yourself an alarm to grab the print as soon as it's done printing (don't leave it hanging on the print bed).
       - As quickly as possible after it's done printing, remove the clear print from the print bed.
