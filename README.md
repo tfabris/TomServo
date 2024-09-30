@@ -334,7 +334,7 @@ Dome:
 
   - If you sourced the 3cm globe externally, use a dremel to very carefully grind away the hanging tabs on the globe. If done very carefully, the spot where the tabs used to be will be very small, only the size of the tabs themselves, and you can position that spot at the back of the head so it's less visible.
 
-  | ![Resin Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Resin%20Domes%20Trimmed.jpg) |
+  | ![Bauble Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Bauble%20Domes%20Trimmed.jpg) |
   | -------------------------------------------------------------------------------------------|
 
   - Use extreme caution to not let glue cause hazing on the clear parts. Use tiniest possible amount of glue. Superglue can cause hazing on clear parts, so consider using "canopy glue" for airplane models, specifically made for this kind of thing.
