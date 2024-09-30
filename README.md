@@ -346,8 +346,7 @@ Dome:
   - Glue lower dome section to the lower hat.
     - If using the clear resin parts, the lower dome is the one with the shorter lip which fits into the lower hat.
     - The lower hat is the one with the rod coming out of the bottom.
-  - If using the clear resin parts, glue upper dome to lower dome.
-  - If using the externally-sourced 3cm globe, you might not need to to glue the two halves together.
+  - If using the clear resin parts, glue upper dome to lower dome. If using the externally-sourced 3cm globe, you might not need to to glue the two halves together.
   - Glue the top hat on top.
 
 Finishing:
