@@ -409,7 +409,7 @@ Just reload the original version of the file. Don't try to do any edits in the "
       - Underside of the two protrusions at the bottom of the the engine block.
       - Position the shoulder sections so that their their spring attachment points are facing away from the hoverskirt.
       - The clear domes should have enough space between them to smoothly clearcoat both their inside and outside without removing them from the supports.
-  - Press Numpad 1 to view the scene orthographically from the front. Select each piece and press G and move each piece into a vertical position slightly above the world plane (the world plane will be the location of the print bed when printing).
+  - Press Numpad 1 to view the scene orthographically from the front. Select each piece and press G and move each piece into a vertical position slightly above the world plane (i.e., the print bed).
 
 ### Differences in Tom's appearance:
 
