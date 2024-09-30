@@ -1,17 +1,18 @@
 Tom Servo - Resin Print Model
 =============================
 &copy; 2024 by Tony Fabris
+https://github.com/tfabris/TomServo
 
 ![Tom Main](Photos/Tom%20Main.jpg)
 
 | ![Tom Secondary 1](Photos/Secondary%201.jpg) | ![Tom Secondary 2](Photos/Secondary%202.jpg) | ![Tom Secondary 1](Photos/Secondary%203.jpg) |
 | ---------------------------------------------|----------------------------------------------|----------------------------------------------|
 
-A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm ($5⅛ inches) tall.
+A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5⅛ inches) tall.
 
 #### Required hardware:
   
-  - A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com/
+  - A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com
 
 #### Required software:
 
