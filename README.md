@@ -275,7 +275,7 @@ Prime and paint the parts while they are still on the supports, so that they are
   - Clear:
     - Gloss clearcoat the clear resin parts.
     - If you want to prevent long-term yellowing of the clear resin, then use a gloss clearcoat product which contains UV resistance. The one that I'm using doesn't say anything on its label about UV resistance, I'm using it merely because it gives a crystal clear finish and dries quickly. Get a better one than I got.
-    - Immediately after applying the gloss clearcoat, while it is still wet, fold another paper towel, and press it atop the circular edges where the two halves of the domes meet, just like you did before curing the domes. This will dab away the clearcoat, keeping the lip clean so that the two halves still fit together snugly.
+    - Immediately after applying the gloss clearcoat, while it is still wet, fold another paper towel, and press it atop the circular edges where the two halves of the domes meet, just like you did before curing the domes. Don't rub, just press. This will dab away the clearcoat, keeping the lip clean so that the two halves still fit together snugly.
 
   | ![Clear](Photos/Printing%20and%20Assembly%20-%20Clear.jpg) |
   | -----------------------------------------------------------|
