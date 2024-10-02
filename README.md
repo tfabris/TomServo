@@ -232,7 +232,7 @@ Prime and paint the parts while they are still on the supports, so that they are
 #### Paint colors that I used:
 
   - Testors 1629T Red Metallic Flake spray paint. (Canonical screen-accurate color.)
-  - Testors 1525 Red Metallic Flake bottle paint.
+  - Testors 1529 Red Metallic Flake bottle paint.
   - Rust-Oleum 2X Ultra Cover Paint+Primer, Metallic Aluminum spray paint.
   - Testors 1146 Metallic Silver bottle paint.
   - Rust-Oleum 2X Ultra Cover, Flat White Primer spray paint.
