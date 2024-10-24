@@ -117,7 +117,7 @@ Keep the parts in their arranged positions, in the blender file, when you export
 #### Ensure correct scaling: 
 
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
-    - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene"), expand the "Units" section and ensure the Unit Scale is 2.275.
+    - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene", expand the "Units" section and ensure the Unit Scale is 2.275.
 
 #### Activate surface textures:
 
