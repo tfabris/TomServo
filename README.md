@@ -11,15 +11,65 @@ https://github.com/tfabris/TomServo
 
 A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5⅛ inches) tall. (I'm gonna do Crow T. Robot next, I'll link him here when he's done.)
 
-#### Required hardware:
+This is a full model ***kit***, which requires painting and assembly. Model building skills are required. If you've built plastic car models and airplane models, this should feel familiar to you. The final result should look very realistic if it's painted and assembled well.
+
+
+Required materials:
+-------------------
+
+### Hardware:
   
   - A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com
   - The parts are arranged to fit on the 7.6-inch screen of the Photon M3. If yours is smaller, you'll need to print your parts in more batches of fewer parts each.
 
-#### Required software:
+### Software:
 
   - Blender - I'm using v3.6 at the moment): https://www.blender.org/
   - A slicer program - I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
+
+### External Parts:
+
+You'll need to source some external parts to complete this model.
+
+#### • Arm springs:
+
+  - Spring type: Extension spring.
+  - Spring size: Approx 7mm (0.028in) wide, 25mm or longer length (will be cut to length).
+  - Example:
+    - https://www.amazon.com/dp/B0CXJMNDDL
+    - Those example springs are too heavy-duty, and are hard to attach. Find springs which are more lightweight than those, if possible. Send me a link if you find some.
+
+#### • Head globe (optional):
+
+  - You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is also sized to fit a commonly-available plastic globe "fillable Christmas ornament" bauble:
+  - Globe size: Approx 3cm (1.18in) diameter.
+  - Examples:
+    - https://www.amazon.com/gp/product/B07QH5QVCW
+    - https://www.amazon.com/gp/product/B0776NHB88
+
+  | ![Baubles](Photos/Printing%20and%20Assembly%20-%20Baubles.jpg) | vs. | ![Resin Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Resin%20Domes%20Trimmed.jpg) |
+  | ---------------------------------------------------------------|-----|-----------------------------------------------------------------|
+  | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) | vs. | ![Resin Head](Photos/Printing%20and%20Assembly%20-%20Resin%20Head.jpg) |
+
+### Paints:
+
+Most of the paints can be substituted with similar items, however, it's important to source the canonical colors directly.
+
+  - Testors 1629T Red Metallic Flake spray paint. (Canonical screen-accurate color.)
+  - Testors 1529 Red Metallic Flake bottle paint. (Canonical screen-accurate color.)
+  - Rust-Oleum 327907 2X Ultra Cover Paint+Primer, Metallic Aluminum spray paint.
+  - Rust-Oleum 327914 2X Ultra Cover Flat White Primer spray paint.
+  - Krylon 0500 Triple-Thick Crystal Clear Glaze spray paint. Or better yet, find a similar one with UV resistance.
+  - Testors 1149 Flat Black bottle paint.
+  - Testors 1147 Gloss Black bottle paint.
+  - Testors 1146 Metallic Silver bottle paint.
+
+### Glue and other materials:
+
+  - Loctite brand super glue, "Ultragel Control" version.
+  - For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
+  - X-acto knife, emery boards, sandpaper.
+  - If you are using the head globe baubles, a rotary tool like a Dremel (with cutting disc), is useful for cleanly removing the hangers off the head globes.
 
 
 Where These Meshes Originated:
@@ -45,41 +95,19 @@ The hoverskirt, doll hands, and skirt rim were modeled from scratch by me, Tony 
     - https://propstoreauction.com/lot-details/index/catalog/386/lot/126337
   - The MST3K channel on YouTube:
     - https://www.youtube.com/@mst3k
+  - These particular YouTube videos:
+    - https://www.youtube.com/watch?v=7FsXqidZgG4
+    - https://www.youtube.com/watch?v=KCvCtgioI9k
+    - https://www.youtube.com/watch?v=7VP9y5gsqLk
   - I have also placed some reference photos in this archive.
 
 
-External Parts:
----------------
-
-You'll need to source some external parts to complete this model.
-
-#### Arm springs:
-
-  - Spring type: Extension spring.
-  - Spring size: Approx 7mm (0.028in) wide, 25mm or longer length (will be cut to length).
-  - Example:
-    - https://www.amazon.com/dp/B0CXJMNDDL
-    - Those example springs are too heavy-duty, and are hard to attach. Find springs which are more lightweight than those, if possible. Send me a link if you find some.
-
-#### Head globe (optional):
-
-  - You can resin-print the head globe using the files included in this archive. But it can be tricky to get clear resin looking good. So this model is also sized to fit a commonly-available plastic globe "fillable Christmas ornament" bauble:
-  - Globe size: Approx 3cm (1.18in) diameter.
-  - Examples:
-    - https://www.amazon.com/gp/product/B07QH5QVCW
-    - https://www.amazon.com/gp/product/B0776NHB88
-
-  | ![Baubles](Photos/Printing%20and%20Assembly%20-%20Baubles.jpg) | vs. | ![Resin Domes Trimmed](Photos/Printing%20and%20Assembly%20-%20Resin%20Domes%20Trimmed.jpg) |
-  | ---------------------------------------------------------------|-----|-----------------------------------------------------------------|
-  | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) | vs. | ![Resin Head](Photos/Printing%20and%20Assembly%20-%20Resin%20Head.jpg) |
-
-
-Exporting Models From Blender for Printing:
--------------------------------------------
+Exporting Models From Blender for 3D Printing:
+----------------------------------------------
 
 Instructions below are for Blender version 3.6. If you are running a later version, it might work a little differently. I haven't tried this on Blender 4.2 yet.
 
-Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions. If you have a smaller printer resin printer, then export the pieces in more groups of fewer pieces, but keep them in the same orientations.
+Keep the parts in their arranged positions, in the blender file, when you export. **Do not tilt the parts,** they are already in their printing positions. If you have a smaller printer than I do (mine has a 7.6-inch screen), then export the pieces in more groups of fewer pieces, but keep them in the same orientations.
 
 #### Open the file:
 
@@ -151,8 +179,6 @@ You will be making multiple selections to export separate groups of objects, to 
     - Run the MacOS utility "Activity Monitor", locate SceneKitQLThumbnailExtension, and terminate it with the little X button in the toolbar (choose Force Quit). You may need to do this more than once.
     - Delete the STL file from the hard disk as soon as you have imported the STL file into your slicer and saved the project in the slicer's format.
 
-Trivia: The Blender file is measured in "meters", but when you import the STL files in your slicer, it will use "millimeters" as its measurement system when importing them.
-
 
 Slicing:
 --------
@@ -205,7 +231,7 @@ Printing:
 - Rinse/dry/cure the parts while still on the supports.
 - After curing, leave the parts on the supports to make them easy to paint.
 - Clear resin printing tips:
-  - Working with clear resin is tricky, do some web searches to find lots of tips. I had some success with this strategy (though still not perfect):
+  - Working with clear resin is tricky, do some web searches to find lots of tips. In particular, I found some good tips by searching YouTube. I also had some success with this strategy that I came up with myself (though still not perfect):
     - Clear resin needs longer exposure times while printing, or else the parts will crumble (I needed to double my exposure time from 4 to 8 seconds, but your printer and resin may vary).
     - Clear resin tends to turn yellowish if you over-cure, so cure for a shorter time than usual.
     - My goal was to get a crystal clear finish on the domes without having to sand and polish the parts after printing. This technique makes them slightly blobby looking, but they come out clear without any sanding or polishing. It only works because the clear domes are simple, smooth shapes. My steps:
@@ -229,16 +255,7 @@ Painting:
 
 Prime and paint the parts while they are still on the supports, so that they are easier to handle. In addition to ensuring that each color group prints together on the same raft, I also like to glue a popsicle stick to the bottom of each raft, so that I have a handle to hold during spray-painting.
 
-#### Paint colors that I used:
-
-  - Testors 1629T Red Metallic Flake spray paint. (Canonical screen-accurate color.)
-  - Testors 1529 Red Metallic Flake bottle paint.
-  - Rust-Oleum 327907 2X Ultra Cover Paint+Primer, Metallic Aluminum spray paint.
-  - Testors 1146 Metallic Silver bottle paint.
-  - Rust-Oleum 327914 2X Ultra Cover Flat White Primer spray paint.
-  - Krylon Triple-Thick Crystal Clear Glaze 0500 spray paint. Or better yet, find a similar one with UV resistance.
-  - Testors 1149 Flat Black bottle paint.
-  - Testors 1147 Gloss Black bottle paint.
+Make sure to thoroughly remove any resin dust caused by any trimming and sanding you have done. The tiniest specks of dust will show brightly in the translucent metallic paints being used in this model. I blow everything clean with an air compressor before painting.
 
 #### Painting:
 
