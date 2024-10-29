@@ -124,7 +124,7 @@ Keep the parts in their arranged positions, in the blender file, when you export
   - Make sure the realtime viewport display of the modifiers on "Barrel" object are enabled, so that it prints with the correct surface textures:
     - Select the "Barrel" object.
     - Object should have an orange outline.
-    - There should be two modifiers on the object (Subdivision and Displace), seen in the "Modifiers" panel, lower right hand panel in the UI; press the "Modifiers" icon in the properties panel, which is the eighth icon which looks like a blue wrench.
+    - There should be two modifiers on the object (Subdivision and Displace), seen in the "Modifiers" panel, lower right hand panel in the UI; press the "Modifiers" icon in the properties panel, which is the ninth icon, which looks like a blue wrench.
     - Examine the "Realtime" button for each of the modifiers. The button is the third of four icons next to the modifier name. The button icon looks like a tiny LCD screen on the modifier panel.
       - If the icon is gray, it means the realtime display for that modifier is turned off.
       - If the icon is lit up blue and white, the realtime display for that modifier is turned on.
