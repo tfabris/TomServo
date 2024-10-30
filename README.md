@@ -87,7 +87,7 @@ The hoverskirt, doll hands, and skirt rim were modeled from scratch by me, Tony 
 
 #### Reference Materials:
 
-  - Official MST3K bot building guide. I got mine from the fan club many years ago (when there was still a fan club), but here is a link to a scanned copy that someone put on dropbox:
+  - Official MST3K Bot Building Booklet. I got mine from the fan club many years ago (when there was still a fan club), but here is a link to a scanned copy that someone put on dropbox:
     - https://www.dropbox.com/s/sl6pzz7m48q7dxr
   - You can google for photos and screen shots on the web. Good example sources:
     - https://mst3k.fandom.com/wiki/Tom_Servo?file=TomServo.jpg 
@@ -449,7 +449,7 @@ Just reload the original version of the file. Don't try to do any edits in the "
   - In early seasons, the "lower hat" piece is not part of Tom's head assembly. It was added in later seasons.
   - The trains on the hoverskirt change their appearance constantly over time. They were vacu-formed from the original toy train shape: The amount of "squish" around their edges, and where they're positioned on the hoverskirt, depend on who did the vacu-forming, where they cut the edges of the plastic, and how carefully they glued them into position.
   - The head dome changed from clear to frosted in the Gizmoplex seasons.
-  - The inner shoulder pieces change appearance as time goes on. Photos of later puppets don't match the photos in the fan club's Bot Building Guide.
+  - The inner shoulder pieces change appearance as time goes on. Photos of later puppets don't match the photos in the fan club's Bot Building Booklet.
 
 
 To Do:
