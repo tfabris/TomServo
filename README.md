@@ -27,9 +27,9 @@ Required materials:
   - Blender - I'm using v3.6 at the moment): https://www.blender.org/
   - A slicer program - I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
 
-### External Parts:
+### External Materials:
 
-You'll need to source some external parts to complete this model.
+You'll need to source some external materials to complete this model.
 
 #### • Arm springs:
 
@@ -51,7 +51,7 @@ You'll need to source some external parts to complete this model.
   | ---------------------------------------------------------------|-----|-----------------------------------------------------------------|
   | ![Bauble Head](Photos/Printing%20and%20Assembly%20-%20Bauble%20Head.jpg) | vs. | ![Resin Head](Photos/Printing%20and%20Assembly%20-%20Resin%20Head.jpg) |
 
-### Paints:
+#### • Paints:
 
 Most of the paints can be substituted with similar items, however, it's important to source the canonical colors directly.
 
@@ -64,7 +64,7 @@ Most of the paints can be substituted with similar items, however, it's importan
   - Testors 1147 Gloss Black bottle paint.
   - Testors 1146 Metallic Silver bottle paint.
 
-### Glue and other materials:
+#### • Glue and other materials:
 
   - Loctite brand super glue, "Ultragel Control" version.
   - For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
