@@ -68,7 +68,7 @@ Most of the paints can be substituted with similar items, however, it's importan
 
   - Loctite brand super glue, "Ultragel Control" version.
   - For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
-  - X-acto knife, emery boards, sandpaper.
+  - X-Acto knife, emery boards, sandpaper, nitrile gloves, isopropyl alcohol.
   - If you are using the head globe baubles, a rotary tool like a Dremel (with cutting disc), is useful for cleanly removing the hangers off the head globes.
 
 
