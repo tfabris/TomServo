@@ -70,6 +70,7 @@ Most of the paints can be substituted with similar items, however, it's importan
   - For the clear parts, I'm using Pacer "Formula 560" Canopy Glue.
   - X-Acto knife, emery boards, sandpaper, nitrile gloves, isopropyl alcohol.
   - If you are using the head globe baubles, a rotary tool like a Dremel (with cutting disc), is useful for cleanly removing the hangers off the head globes.
+  - Optional: Scotch/3M brand Removable Mounting Putty. Used for making joints more sticky. Example: https://www.amazon.com/dp/B07KPLJ8XP
 
 
 Where These Meshes Originated:
