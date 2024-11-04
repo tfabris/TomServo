@@ -401,6 +401,7 @@ For glue, I'm using Loctite brand cyanoacrylate, the "Super Gel Control" version
   - Glue the barrel to the hoverskirt. Ensure that one of the trains is centered on the front, exactly under the engine block.
   - Glue the head dome assembly into the face assembly, and if you used the clear baubles, make sure the dremeled section of the bauble is in the back, opposite the beak.
   - Insert the head assembly onto the neck at the top of the barrel; do not glue it, leave the head poseable.
+  - Optional: If the neck joint rotates too loosely, you can put some kind of sticky substance on the shaft. I'm using Scotch/3M brand "Removable Mounting Putty" for this task, but you can experiment and find other good substances. Apply it very thinly so that some of it gets into the actual joint.
 
 
 Notes:
