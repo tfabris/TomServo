@@ -9,7 +9,7 @@ https://github.com/tfabris/TomServo
 | ![Tom Secondary 1](Photos/Secondary%201.jpg) | ![Tom Secondary 2](Photos/Secondary%202.jpg) | ![Tom Secondary 1](Photos/Secondary%203.jpg) |
 | ---------------------------------------------|----------------------------------------------|----------------------------------------------|
 
-A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5⅛ inches) tall. (I'm gonna do Crow T. Robot next, I'll link him here when he's done.)
+A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5⅛ inches) tall. (I have also done Crow T. Robot, located [here](https://github.com/tfabris/CrowTRobot).)
 
 This is a full model ***kit***, which requires painting and assembly. Model building skills are required. If you've built plastic car models and airplane models, this should feel familiar to you. The final result should look very realistic if it's painted and assembled well.
 
