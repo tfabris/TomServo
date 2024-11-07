@@ -21,6 +21,7 @@ Required materials:
   
   - A 3D resin printer and a wash/cure station. I'm using an Anycubic Photon M3, but other resin printers will work too: https://www.anycubic.com
   - The parts are arranged to fit on the 7.6-inch screen of the Photon M3. If yours is smaller, you'll need to print your parts in more batches of fewer parts each.
+  - Optional: White print resin, black print resin, and clear print resin.
 
 ### Software:
 
