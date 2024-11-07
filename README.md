@@ -26,6 +26,7 @@ Required materials:
 
   - Blender - I'm using v3.6 at the moment): https://www.blender.org/
   - A slicer program - I'm using Chitubox Basic v1.9.4 at the moment: https://www.chitubox.com/en/download/chitubox-free
+  - The source files for this 3D model: https://github.com/tfabris/TomServo/archive/refs/heads/master.zip
 
 ### External Materials:
 
