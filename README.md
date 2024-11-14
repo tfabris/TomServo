@@ -6,8 +6,9 @@ https://github.com/tfabris/TomServo
 
 ![Tom Main](Photos/Tom%20Main.jpg)
 
-| ![Tom Secondary 1](Photos/Secondary%201.jpg) | ![Tom Secondary 2](Photos/Secondary%202.jpg) | ![Tom Secondary 1](Photos/Secondary%203.jpg) |
-| ---------------------------------------------|----------------------------------------------|----------------------------------------------|
+| ![Tom Secondary 1](Photos/Secondary%201.jpg) | ![Tom Secondary 2](Photos/Secondary%202.jpg) |
+| ---------------------------------------------|----------------------------------------------|
+| ![Tom Secondary 3](Photos/Secondary%203.jpg) | ![Tom and Crow](Photos/Tom%20and%20Crow.jpg) |
 
 A project for resin-printing a small model of a character from Mystery Science Theater 3000. Not intended for making a full size puppet. Final size of model is approximately 13cm (5⅛ inches) tall. (I have also done Crow T. Robot, located [here](https://github.com/tfabris/CrowTRobot).)
 
