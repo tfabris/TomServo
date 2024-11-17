@@ -266,7 +266,7 @@ Make sure to thoroughly remove any resin dust caused by any trimming and sanding
     - Silver is an undercoat for the red, which is important for a screen-accurate shine. I used the "metallic aluminum" spray paint to evenly coat the entire parts group.
     - After the undercoat dries, there are special steps for the four silver parts (2 beak parts and 2 engine pipe parts):
       - Make the four silver parts even shinier, by hand-painting them with Testors 1146 Metallic Silver bottle paint. Hand-paint only the exterior portions of the beak and engine pipes, don't add additional silver paint to the interior places, or to the places where the parts attach to each other.
-        - (I didn't do the extra layer of silver when I assembled my model and took my photographs, so the extra shiny beak and pipes are not pictured. I later decided that the silver parts were not shiny enough, and so I needed to go back touch up the silver parts with the bottle paint. I deeply regretted not having done it while the parts were still on the supports.)
+        - (I didn't do the extra layer of silver when I assembled my model and took my photographs, so the extra shiny beak and pipes are not pictured. I later decided that the silver parts were not shiny enough, and so I needed to go back and touch up the silver parts with the bottle paint. I deeply regretted not having done it while the parts were still on the supports.)
       - After drying, remove the four silver parts from the supports. Leave the rest on the supports, to paint the red coat.
 
   | ![Silver Part Set](Photos/Printing%20and%20Assembly%20-%20Silver.jpg) | ![Red Part Set](Photos/Printing%20and%20Assembly%20-%20Red.jpg) |
