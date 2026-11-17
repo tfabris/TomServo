@@ -122,6 +122,7 @@ Keep the parts in their arranged positions, in the blender file, when you export
 
   - Ensure that "Unit Scale" of the blender file is set to 2.275:
     - Select the "Scene" properties panel. Should be the lower right hand panel in the UI, select its fifth icon which is "Scene", expand the "Units" section and ensure the Unit Scale is 2.275.
+    - If you wish to print at a different scale, feel free to experiment with this number. For example, if you want to match a 1/6 scale action figure, then this number should be about 1.6 or 1.7. However, printing at a smaller scale may make some of the parts too thin and fragile, so you might also have to edit the 3D model and thicken up some of the parts, so that they print correctly without crumbling. And of course the externally-sourced parts will no longer fit, so you'll need to use different parts than what I used for those.
 
 #### Activate surface textures:
 
